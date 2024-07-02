@@ -26,9 +26,7 @@ describe("Market programs", () => {
 
       // Check if the program reward rates are valid
       expect(
-        program.supplyRatePerYear +
-          program.borrowRatePerYear +
-          program.collateralRatePerYear
+        program.supplyRatePerYear + program.borrowRatePerYear + program.collateralRatePerYear
       ).toBeGreaterThan(0n);
     }
   });

@@ -11,20 +11,14 @@ import { VaultRewardProgramArgs, vaultPrograms } from "./vault-programs";
 
 export const OffchainPrograms = {
   getMarketPrograms(): MarketRewardProgram[] {
-    return marketPrograms.map((programArgs) =>
-      toMarketRewardProgram(programArgs)
-    );
+    return marketPrograms.map((programArgs) => toMarketRewardProgram(programArgs));
   },
   getVaultPrograms(): VaultRewardProgram[] {
-    return vaultPrograms.map((programArgs) =>
-      toVaultRewardProgram(programArgs)
-    );
+    return vaultPrograms.map((programArgs) => toVaultRewardProgram(programArgs));
   },
 };
 
-function toMarketRewardProgram(
-  args: MarketRewardProgramArgs
-): MarketRewardProgram {
+function toMarketRewardProgram(args: MarketRewardProgramArgs): MarketRewardProgram {
   const asset = new OnchainAsset({
     address: args.tokenAddress,
     chainId: args.chainId,
@@ -34,9 +28,7 @@ function toMarketRewardProgram(
     chainId: args.chainId,
   });
 
-  const end = args.end
-    ? args.end
-    : args.start + RewardMathLib.SECONDS_IN_A_YEAR;
+  const end = args.end ? args.end : args.start + RewardMathLib.SECONDS_IN_A_YEAR;
 
   const supplyRatePerYear = RewardMathLib.fromAmountToRate({
     start: args.start,
@@ -71,9 +63,7 @@ function toMarketRewardProgram(
   });
 }
 
-function toVaultRewardProgram(
-  args: VaultRewardProgramArgs
-): VaultRewardProgram {
+function toVaultRewardProgram(args: VaultRewardProgramArgs): VaultRewardProgram {
   const asset = new OnchainAsset({
     address: args.tokenAddress,
     chainId: args.chainId,
