@@ -1,0 +1,41 @@
+name: blue-reward-programs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-build-and-test:
+    name: Lint, Build and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Lint SDK
+        run: yarn lint
+
+      - name: Build SDK
+        run: yarn build
+
+      - name: Test SDK
+        run: yarn test --coverage
+  release:
+    needs: [lint-build-and-test]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/release.yml
+    secrets: inherit
