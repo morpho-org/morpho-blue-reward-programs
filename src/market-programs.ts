@@ -325,4 +325,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // stkcvxcrvUSDETHCRV-morpho/crvUSD 18,000 CRV
+  {
+    start: 1717761600n,
+    end: 1720353600n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    marketId: "0xbd2a27358bdaf3fb902a0ad17f86d4633f9ac5377941298720b37a4d90deab96",
+    rewardAmount: {
+      supply: parseUnits("18000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
