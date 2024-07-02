@@ -1,0 +1,52 @@
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# IDE
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# dependencies
+node_modules
+lib
+
+# testing
+coverage
+sandbox.test.ts
+.nyc_output
+.mp4
+
+# production
+build
+dist
+packages/**/lib
+sdks/**/lib
+services/**/lib
+services/**/.esbuild
+services/**/.serverless
+
+# misc
+.DS_Store
+*.env*
+!*.env.example*
+!*.env.test
+*.pem
+stats-*.json
+**/disk-store
+
+
+# debug
+cache
+*.log*
+*.tsbuildinfo

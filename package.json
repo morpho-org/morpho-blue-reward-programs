@@ -1,0 +1,37 @@
+{
+  "name": "@morpho-org/blue-reward-programs",
+  "version": "0.0.1",
+  "author": "Morpho Association <contact@morpho.org>",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "test": "jest",
+    "lint": "prettier --check src"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@morpho-org/blue-rewards-core-sdk": "0.0.5",
+    "viem": "^2.9.31"
+  },
+  "lint-staged": {
+    "*.ts": "prettier"
+  }
+}
