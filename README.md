@@ -1,6 +1,6 @@
 ## Morpho Blue reward programs
 
-This folder contains Morpho Blue reward programs that can incentivize multiple layers of the Morpho Blue stack.
+This repository allows you to create your own reward program by submitting a pull request.
 
 ### Create a Market program
 
@@ -16,8 +16,7 @@ export const marketPrograms = [
     fundsSender: "0x061060a65146b3265C62fC8f3AE977c9B27260fF",
     urdAddress: "0x5aC6F9F696b06538A8A0253ab495dC4c638da3be",
     tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    marketId:
-      "0xdba352d93a64b17c71104cbddc6aef85cd432322a1446b5b65163cbbc615cd0c",
+    marketId: "0xdba352d93a64b17c71104cbddc6aef85cd432322a1446b5b65163cbbc615cd0c",
     rewardAmount: {
       supply: parseUnits("300000", 18),
       borrow: 0n,
