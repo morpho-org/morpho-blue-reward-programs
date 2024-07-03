@@ -47,3 +47,17 @@ export const vaultPrograms = [
   },
 ];
 ```
+
+
+### Frequently Asked Questions
+
+1. Where should we get the `urdAddress`?
+
+The URDs are not tied to a specific type of program. The incentive provider must ensure that Morpho Association is the updater of the tree to prevent incorrect tree roots from being published on the URD, which could lead to loss of funds. It is recommended to use the following URDs:
+
+- For Mainnet: [0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb](https://etherscan.io/address/0x330eefa8a787552dc5cad3c3ca644844b1e61ddb)
+- For Base: [0x5400dbb270c956e8985184335a1c62aca6ce1333](https://basescan.org/address/0x5400dbb270c956e8985184335a1c62aca6ce1333)
+
+2. Do the borrow and collateral parameters affect anything? Should we set them to 0?
+
+Yes, they can affect the reward distribution. If your program does not intend to provide rewards for borrowing or collateral, you should set these parameters to 0. Otherwise, you can specify the amount accordingly.
