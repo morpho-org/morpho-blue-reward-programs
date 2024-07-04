@@ -327,7 +327,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // wUSD+/USDC 51k OVN 07/04/2024 10/10/2024 12am every thursday UTC+0
   {
-    start: 1720083600n,
+    start: 1720094400n,
     end: 1720688400n,
     fundsSender: "0x784Cf4b62655486B405Eb76731885CC9ed56f42f",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
