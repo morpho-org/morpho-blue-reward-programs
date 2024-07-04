@@ -325,7 +325,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // wUSD+/USDC 51k OVN 07/04/2024 10/10/2024 12am every thursday UTC+0
+  // wUSD+/USDC 51k OVN 07/04/2024 10/10/2024 12am every friday UTC+0
   {
     start: 1720180800n,
     end: 1720785600n,
