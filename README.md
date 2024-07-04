@@ -14,7 +14,7 @@ export const marketPrograms = [
     start: 1717149233n,
     end: 1718149235n,
     fundsSender: "0x061060a65146b3265C62fC8f3AE977c9B27260fF",
-    urdAddress: "0x5aC6F9F696b06538A8A0253ab495dC4c638da3be",
+    urdAddress: "0xURD_MAINNET_TO_MODIFY",
     tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     marketId: "0xdba352d93a64b17c71104cbddc6aef85cd432322a1446b5b65163cbbc615cd0c",
     rewardAmount: {
@@ -39,7 +39,7 @@ export const vaultPrograms = [
     start: 1718719200n,
     end: 1723903200n,
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa",
-    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    urdAddress: "0xURD_BASE_TO_MODIFY",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
     vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
     amount: parseUnits("4165000", 18),
@@ -61,3 +61,11 @@ The URDs are not tied to a specific type of program. The incentive provider must
 2. Do the borrow and collateral parameters affect anything? Should we set them to 0?
 
 Yes, they can affect the reward distribution. If your program does not intend to provide rewards for borrowing or collateral, you should set these parameters to 0. Otherwise, you can specify the amount accordingly.
+
+3. What happens if the funds are not sent to the URD before the start date?
+
+If funds arrive after the start date, the program won't start immediately, but the funds are not lost. They can be used to reschedule the program or initiate a new one later on.
+
+4. In case of multiple rewards programs, should I send all funds?
+
+it is up to the incentives provider. If multiple programs are created, it's essential that the URD receives the rewards dedicated to each program before their respective start dates. Even if a program starts in one month, as long as its dedicated rewards are received before its start date, it will be considered valid.
