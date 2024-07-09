@@ -104,7 +104,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
     tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
-    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vaul
+    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
     amount: parseUnits("47777", 18),
     chainId: ChainId.MAINNET,
   },
