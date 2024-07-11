@@ -56,7 +56,11 @@
               "release": "patch"
             },
             {
-              "release": "minor"
+              "type": "chore",
+              "release": false
+            },
+            {
+              "release": "patch"
             }
           ]
         }
