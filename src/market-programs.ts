@@ -253,7 +253,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   // cbETH/USDC 16,000 USDC 06/21/2024 07/20/2024 10am EST
   {
     start: 1718978400n,
-    end: 1721401200n,
+    end: 1721142000n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -518,6 +518,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     rewardAmount: {
       supply: 0n,
       borrow: parseUnits("4990", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // new cbETH/USDC 16,000 USDC 07/16/2024 07/20/2024 11am EST
+  {
+    start: 1721142000n,
+    end: 1721401200n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x1c21c59df9db44bf6f645d854ee710a8ca17b479451447e9f56758aee10a2fad",
+    rewardAmount: {
+      supply: parseUnits("1720", 6),
+      borrow: 0n,
       collateral: 0n,
     },
     chainId: ChainId.BASE,
