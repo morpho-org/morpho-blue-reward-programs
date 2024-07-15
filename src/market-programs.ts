@@ -522,10 +522,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // bsdETH/ETH 2,000,000 RSR 07/10/2024 08/10/2024 6pm GMT
+  // bsdETH/ETH 2,000,000 RSR 07/18/2024 08/18/2024 6pm GMT
   {
-    start: 1720634400n,
-    end: 1723312800n,
+    start: 1721325600n,
+    end: 1724004000n,
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
