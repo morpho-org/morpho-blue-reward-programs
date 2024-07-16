@@ -2,6 +2,8 @@
 
 This repository allows you to create your own reward program by submitting a pull request.
 
+**⚠️ Warning:** Please anticipate with one week before the start of the program to ensure smooth implementation and avoid any last-minute issues.
+
 ### Create a Market program
 
 Market Programs can be added in `src/market-programs.ts` at the end of the `marketPrograms` array. You should send funds to the URD with the funds sender before the start date of the program to validate it.
@@ -47,7 +49,6 @@ export const vaultPrograms = [
   },
 ];
 ```
-
 
 ### Frequently Asked Questions
 
