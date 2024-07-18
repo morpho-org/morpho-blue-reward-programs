@@ -108,4 +108,26 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("47777", 18),
     chainId: ChainId.MAINNET,
   },
+  // Re7 eUSD Vault - 8,000,000 RSR 07/22-08/22 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("8000000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Guntlet eUSD Core Vault - 11,000,000 RSR 07/22-08/22 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("11000000", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];
