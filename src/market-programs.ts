@@ -552,4 +552,109 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // bsdETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    marketId: "0xf9ed1dba3b6ba1ede10e2115a9554e9c52091c9f1b1af21f9e0fecc855ee74bf",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("500000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    marketId: "0xce89aeb081d719cd35cb1aafb31239c4dfd9c017b2fec26fc2e9a443461e9aea",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("500000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    marketId: "0xb5d424e4af49244b074790f1f2dc9c20df948ce291fc6bcc6b59149ecf91196d",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("500000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // hyUSD/eUSD Base 250,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    marketId: "0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("250000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // ETH+/eUSD Mainnet 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    marketId: "0x3f4d007982a480dd99052c05d811cf6838ce61b2a2be8dc52fca107f783d1f15",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("500000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // WBTC/eUSD Mainnet 1,100,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    marketId: "0x461da96754b33fec844fc5e5718bf24298a2c832d8216c5ffd17a5230548f01f",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1100000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // wstETH/eUSD Mainnet 1,100,000 RSR 07/22/2024 08/22/2024 4pm GMT
+  {
+    start: 1721664000n, 
+    end: 1724342400n, 
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    marketId: "0x6029eea874791e01e2f3ce361f2e08839cd18b1e26eea6243fa3e43fe8f6fa23",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1100000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
