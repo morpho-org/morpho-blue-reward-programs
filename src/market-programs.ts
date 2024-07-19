@@ -363,7 +363,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("2840", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -377,7 +377,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("2990", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -391,7 +391,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3150", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -405,7 +405,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3310", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -419,7 +419,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3490", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -433,7 +433,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3670", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -447,7 +447,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3860", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -461,7 +461,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4070", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -475,7 +475,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4280", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -489,7 +489,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4510", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -503,7 +503,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4750", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -517,7 +517,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4990", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
