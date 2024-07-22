@@ -363,7 +363,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("2840", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -377,7 +377,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("2990", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -391,7 +391,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3150", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -405,7 +405,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3310", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -419,7 +419,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3490", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -433,7 +433,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3670", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -447,7 +447,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("3860", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -461,7 +461,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4070", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -475,7 +475,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4280", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -489,7 +489,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4510", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -503,7 +503,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4750", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -517,7 +517,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x104ff0b7c0d67301cb24e3a10b928b0fb0026ee26338e28553b7064fa8b659a9",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("4990", 18),
+      borrow: parseUnits("1400", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -554,8 +554,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // bsdETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
@@ -569,8 +574,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // wstETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
@@ -584,8 +594,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // cbETH/eUSD Base 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
@@ -599,8 +614,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // hyUSD/eUSD Base 250,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
@@ -614,8 +634,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // ETH+/eUSD Mainnet 500,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
@@ -629,8 +654,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // WBTC/eUSD Mainnet 1,100,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
@@ -644,8 +674,13 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // wstETH/eUSD Mainnet 1,100,000 RSR 07/22/2024 08/22/2024 4pm GMT
   {
+<<<<<<< HEAD
     start: 1721664000n, 
     end: 1724342400n, 
+=======
+    start: 1721664000n,
+    end: 1724342400n,
+>>>>>>> upstream/main
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
@@ -657,6 +692,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+<<<<<<< HEAD
   // bsdETH/ETH Base 600,000 RSR 07/25/2024 08/25/2024 1pm GMT
   {
     start: 1721912410n, 
@@ -672,4 +708,6 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+=======
+>>>>>>> upstream/main
 ];
