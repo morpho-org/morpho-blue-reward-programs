@@ -672,4 +672,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // ETH+/ETH Mainnet 2,800,000 RSR 07/29/2024 08/29/2024 1pm GMT
+  {
+    start: 1722258000n,
+    end: 1724936400n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    marketId: "0x9ec52d7195bafeba7137fa4d707a0f674a04a6d658c9066bcdbebc6d81eb0011",
+    rewardAmount: {
+      supply: parseUnits("2800000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
