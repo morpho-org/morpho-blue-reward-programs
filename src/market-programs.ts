@@ -657,4 +657,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // apxETH/WETH 67000 DINERO
+  {
+    start: 1722556800n,
+    end: 1723766400n,
+    fundsSender: "0x7f6494D4fBEA1c06daC2250A3FCa81003bF8D20C",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x6DF0E641FC9847c0c6Fde39bE6253045440c14d3",
+    marketId: "0x8bbd1763671eb82a75d5f7ca33a0023ffabdd9d1a3d4316f34753685ae988e80",
+    rewardAmount: {
+      supply: parseUnits("67000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
