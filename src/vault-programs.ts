@@ -130,10 +130,10 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("11000000", 18),
     chainId: ChainId.MAINNET,
   },
-  // pythUSDC Vault - 25,000 PYTH 08/01-08/30 4pm UTC
+  // pythUSDC Vault - 25,000 PYTH 08/06-09/05 4pm UTC
   {
-    start: 1722484800n,
-    end: 1725076800n,
+    start: 1722960000n,
+    end: 1725552000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
@@ -141,10 +141,10 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("25000", 18),
     chainId: ChainId.BASE,
   },
-  // pythETH Vault - 25,000 PYTH 08/01-08/30 4pm UTC
+  // pythETH Vault - 25,000 PYTH 08/06-09/05 4pm UTC
   {
-    start: 1722484800n,
-    end: 1725076800n,
+    start: 1722960000n,
+    end: 1725552000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
