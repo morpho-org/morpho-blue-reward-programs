@@ -1,6 +1,6 @@
 ## Context
 
-Please, provide here any context that could help us to validate the Reward Program.
+Please, provide here any context that could help us to validate the Reward Program(s).
 
 ## Merge conditions checklist
 
