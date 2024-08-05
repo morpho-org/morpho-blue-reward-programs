@@ -689,8 +689,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // UNI/USDC Mainnet 200k PYTH 07/31/2024-10/01/2024 12pm EST
   {
-    start: 1722441600n,
-    end: 1727798400n,
+    start: 1723046400n,
+    end: 1728316800n,
     fundsSender: "0xE64fD4d6f8128A27365Bee615eC9eD33979c782C",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xeFc0CED4B3D536103e76a1c4c74F0385C8F4Bdd3",
