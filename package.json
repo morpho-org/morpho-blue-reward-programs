@@ -33,7 +33,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@morpho-org/blue-rewards-core-sdk": "0.0.5",
+    "@morpho-org/blue-rewards-core-sdk": "0.0.7",
     "viem": "^2.9.31"
   },
   "lint-staged": {
