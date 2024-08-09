@@ -711,7 +711,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     marketId: "0x6a6c8e41a6a7ccbea68e1e6a19ece1fdd863b2b6c9e0f71bbcd4dcbe8b1062e8",
     rewardAmount: {
-      supply: 623424419249185042,
+      supply: 623424419249185042n,
       borrow: 0n,
       collateral: 0n,
     },
