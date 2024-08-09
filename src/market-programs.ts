@@ -717,6 +717,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // wstETH / USDT Mainnet 0.62 WETH 08/09/2024 09/07/2024 1pm GMT
+  {
+    start: 1723208400n,
+    end: 1725714000n,
+    fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    marketId: "0x6a6c8e41a6a7ccbea68e1e6a19ece1fdd863b2b6c9e0f71bbcd4dcbe8b1062e8",
+    rewardAmount: {
+      supply: 623424419249185042n,
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
   // pufETH / USDC Mainnet 0.094 WETH 08/09/2024 09/07/2024 1pm GMT
   {
     start: 1723208400n,
@@ -731,5 +746,5 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
       collateral: 0n,
     },
     chainId: ChainId.MAINNET,
-  }
+  },
 ];
