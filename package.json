@@ -1,6 +1,6 @@
 {
   "name": "@morpho-org/blue-reward-programs",
-  "version": "1.4.12-beta.1",
+  "version": "1.4.12",
   "author": "Morpho Association <contact@morpho.org>",
   "license": "MIT",
   "main": "lib/index.js",
