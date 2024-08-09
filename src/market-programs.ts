@@ -717,4 +717,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // pufETH / USDC Mainnet 0.094 WETH 08/09/2024 09/07/2024 1pm GMT
+  {
+    start: 1723208400n,
+    end: 1725714000n,
+    fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    marketId: "0x7e9c708876fa3816c46aeb08937b51aa0461c2af3865ecb306433db8a80b1d1b",
+    rewardAmount: {
+      supply: 94597806657332024n,
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  }
 ];
