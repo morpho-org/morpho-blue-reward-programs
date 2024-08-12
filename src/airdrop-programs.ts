@@ -6,7 +6,7 @@ export type AirdropRewardProgramArgs = {
   urdAddress: Address;
   tokenAddress: Address;
   chainId: ChainId;
-  ipfsHash: string;
+  cidV0: string;
 };
 
 /**
@@ -18,7 +18,7 @@ export type AirdropRewardProgramArgs = {
  *    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
  *    urdAddress: "0x330eefa8a787552dc5cad3c3ca644844b1e61ddb",
  *    tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
- *    ipfsHash: "QmUSNh34dpKFbX7YMU4fd5JbfkVYzb4e45o3pSqqXvzkKw",
+ *    cidV0: "QmUSNh34dpKFbX7YMU4fd5JbfkVYzb4e45o3pSqqXvzkKw",
  *    chainId: ChainId.MAINNET
  *   }
  * ]
