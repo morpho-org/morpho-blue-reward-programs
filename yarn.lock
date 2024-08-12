@@ -594,21 +594,27 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@morpho-org/blue-rewards-core-sdk@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.8.tgz#5401475dc1e0ef7d481fc1060150150e063b0bff"
-  integrity sha512-W62jOiMlXqcrDSJeUb3F66NoYC+DAEThQ8FwbEfdmwRJCB9ljUiXgPUGi1CdpowX0XdjQHBeglsILncqDItnKA==
+"@morpho-org/blue-rewards-core-sdk@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.9.tgz#4613f434715bbec177b35925504d5870a6cdff72"
+  integrity sha512-jXncQHWipkHo47PCJSgcx3n21HtjcZawNKkqOwWhhBPP/E/2APEguELBWQv9qhHcgPn+/HJ2gtiKdJrUwPxuHw==
   dependencies:
     "@morpho-org/blue-sdk" "^1.0.6"
+    "@morpho-org/morpho-ts" "^1.4.4"
     bs58 "^5.0.0"
     viem "^2.9.31"
 
 "@morpho-org/blue-sdk@^1.0.6":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@morpho-org/blue-sdk/-/blue-sdk-1.4.5.tgz#e93b05b725cd790d36aa0e62e5153d9e0b53e8e7"
-  integrity sha512-d6rNEAqPjeoQ1KqjGa2WdrhyghFdR3jL5mx4noEPI8AdcTBZl8Xs04vs8xIH0ZYBU7jp4Uh+YTPXz/yQlZ5zNw==
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@morpho-org/blue-sdk/-/blue-sdk-1.5.7.tgz#9931d922a6d01bb2106b0550b9d66dd9221d08c2"
+  integrity sha512-46fscBApabmMAxHnqG09Npx1fmnd+ikeyN/1u6GZ64ecm2jITrM9wTNRg7pKcPfd3Q7b6qCACrNyYsBlAZhDNg==
   dependencies:
     keccak256 "^1.0.6"
+
+"@morpho-org/morpho-ts@^1.4.4":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@morpho-org/morpho-ts/-/morpho-ts-1.5.7.tgz#7a1c595e36e8523b19cb5ebcb2dbe0ecbf43a0e1"
+  integrity sha512-DmOE/wXyv8oC56LIF/cw7YT7OYpy7Vo/gKu+/pgG8jqvQh1AYb7GelBvoKF31d4jk0ERzlsowpIcKQoCtkQfLQ==
 
 "@morpho-org/morpho-ts@^1.4.5":
   version "1.4.5"

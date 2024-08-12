@@ -112,6 +112,6 @@ function toAirdropRewardProgram(args: AirdropRewardProgramArgs): AirdropRewardPr
     asset,
     distributor,
     chainId: args.chainId,
-    ipfsHash: args.ipfsHash,
+    cidV0: args.cidV0,
   });
 }
