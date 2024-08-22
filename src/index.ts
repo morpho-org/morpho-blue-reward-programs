@@ -4,8 +4,11 @@ import {
   RewardMathLib,
   UniversalRewardDistributor,
   VaultRewardProgram,
+  AirdropRewardProgram,
+  RewardProgram,
 } from "@morpho-org/blue-rewards-core-sdk";
 
+import { AirdropRewardProgramArgs, airdropPrograms } from "./airdrop-programs";
 import { MarketRewardProgramArgs, marketPrograms } from "./market-programs";
 import { VaultRewardProgramArgs, vaultPrograms } from "./vault-programs";
 
@@ -15,6 +18,12 @@ export const OffchainPrograms = {
   },
   getVaultPrograms(): VaultRewardProgram[] {
     return vaultPrograms.map((programArgs) => toVaultRewardProgram(programArgs));
+  },
+  getAirdropPrograms(): AirdropRewardProgram[] {
+    return airdropPrograms.map((programArgs) => toAirdropRewardProgram(programArgs));
+  },
+  getPrograms(): RewardProgram[] {
+    return [...this.getMarketPrograms(), ...this.getVaultPrograms(), ...this.getAirdropPrograms()];
   },
 };
 
@@ -83,5 +92,26 @@ function toVaultRewardProgram(args: VaultRewardProgramArgs): VaultRewardProgram 
     distributor,
     chainId: args.chainId,
     amount: args.amount,
+  });
+}
+
+function toAirdropRewardProgram(args: AirdropRewardProgramArgs): AirdropRewardProgram {
+  const asset = new OnchainAsset({
+    address: args.tokenAddress,
+    chainId: args.chainId,
+  });
+  const distributor = new UniversalRewardDistributor({
+    address: args.urdAddress,
+    chainId: args.chainId,
+  });
+
+  return new AirdropRewardProgram({
+    createdAt: args.claimDate,
+    start: args.claimDate,
+    creator: args.fundsSender,
+    asset,
+    distributor,
+    chainId: args.chainId,
+    cidV0: args.cidV0,
   });
 }
