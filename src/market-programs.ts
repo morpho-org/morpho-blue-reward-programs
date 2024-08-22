@@ -762,4 +762,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // verUSDC 60'000 CFG 
+  {
+    start: 1724749200n, 
+    end: 1729933200n, 
+    fundsSender: "0x8D566ADACe57ee5DD2BF98953B804991D634211A", 
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x2b51E2Ec9551F9B87B321f63b805871f1c81ba97",
+    marketId: "0x83262d91702f90d9edf6c737ceb46e59a2bcfc7ba856e1e8448b7824f83a07e3",
+    rewardAmount: {
+    supply: parseUnits("60000", 18),
+    borrow: 0n,
+    collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+    },
 ];
