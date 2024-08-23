@@ -594,10 +594,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@morpho-org/blue-rewards-core-sdk@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.9.tgz#4613f434715bbec177b35925504d5870a6cdff72"
-  integrity sha512-jXncQHWipkHo47PCJSgcx3n21HtjcZawNKkqOwWhhBPP/E/2APEguELBWQv9qhHcgPn+/HJ2gtiKdJrUwPxuHw==
+"@morpho-org/blue-rewards-core-sdk@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.11.tgz#8da3acfe8080ab79efc2c317da6ebdf53db54a51"
+  integrity sha512-8+8IzHxj83cRgGIPhkRF7Ei5hdzuZZSMrsZSQik27W4tYOpZL8EJbanmSHlHfmnnVqYqlqIG7jczGb0zj2tmqQ==
   dependencies:
     "@morpho-org/blue-sdk" "^1.0.6"
     "@morpho-org/morpho-ts" "^1.4.4"

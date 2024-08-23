@@ -6,10 +6,12 @@ import {
   VaultRewardProgram,
   AirdropRewardProgram,
   RewardProgram,
+  UniformRateProgram,
 } from "@morpho-org/blue-rewards-core-sdk";
 
 import { AirdropRewardProgramArgs, airdropPrograms } from "./airdrop-programs";
 import { MarketRewardProgramArgs, marketPrograms } from "./market-programs";
+import { UniformRewardProgramArgs, uniformPrograms } from "./uniform-programs";
 import { VaultRewardProgramArgs, vaultPrograms } from "./vault-programs";
 
 export const OffchainPrograms = {
@@ -21,6 +23,9 @@ export const OffchainPrograms = {
   },
   getAirdropPrograms(): AirdropRewardProgram[] {
     return airdropPrograms.map((programArgs) => toAirdropRewardProgram(programArgs));
+  },
+  getUniformRatePrograms(): UniformRateProgram[] {
+    return uniformPrograms.map((programArgs) => toUniformRateProgram(programArgs));
   },
   getPrograms(): RewardProgram[] {
     return [...this.getMarketPrograms(), ...this.getVaultPrograms(), ...this.getAirdropPrograms()];
@@ -113,5 +118,23 @@ function toAirdropRewardProgram(args: AirdropRewardProgramArgs): AirdropRewardPr
     distributor,
     chainId: args.chainId,
     cidV0: args.cidV0,
+  });
+}
+
+function toUniformRateProgram(args: UniformRewardProgramArgs): UniformRateProgram {
+  return new UniformRateProgram({
+    createdAt: args.start,
+    start: args.start,
+    creator: args.fundsSender,
+    asset: new OnchainAsset({
+      address: args.tokenAddress,
+      chainId: args.chainId,
+    }),
+    distributor: new UniversalRewardDistributor({
+      address: args.urdAddress,
+      chainId: args.chainId,
+    }),
+    chainId: args.chainId,
+    config: args.config,
   });
 }
