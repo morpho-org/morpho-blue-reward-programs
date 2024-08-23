@@ -28,7 +28,12 @@ export const OffchainPrograms = {
     return uniformPrograms.map((programArgs) => toUniformRateProgram(programArgs));
   },
   getPrograms(): RewardProgram[] {
-    return [...this.getMarketPrograms(), ...this.getVaultPrograms(), ...this.getAirdropPrograms()];
+    return [
+      ...this.getMarketPrograms(),
+      ...this.getVaultPrograms(),
+      ...this.getAirdropPrograms(),
+      ...this.getUniformRatePrograms(),
+    ];
   },
 };
 
