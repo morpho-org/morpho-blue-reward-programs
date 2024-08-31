@@ -196,7 +196,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("30000", 18),
     chainId: ChainId.MAINNET,
   },
-  // LlamaRisk crvUSD Vault (Epoch 3) - 14,600 CRV over 2 weeks
+  // LlamaRisk crvUSD Vault (Epoch 4) - 14,600 CRV over 2 weeks
   {
     start: 1725642308n, // Fri Sep 06 2024 17:05:08 GMT+0000
     end: 1726851908n, // Fri Sep 20 2024 17:05:08 GMT+0000
