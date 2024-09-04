@@ -807,4 +807,64 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // verUSDC 60'000 CFG
+  {
+    start: 1724749200n,
+    end: 1729933200n,
+    fundsSender: "0x8D566ADACe57ee5DD2BF98953B804991D634211A",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x2b51E2Ec9551F9B87B321f63b805871f1c81ba97",
+    marketId: "0x83262d91702f90d9edf6c737ceb46e59a2bcfc7ba856e1e8448b7824f83a07e3",
+    rewardAmount: {
+      supply: parseUnits("60000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // bsdETH/eUSD Base 1,250 eUSD 09/05-09/20 6pm GMT
+  {
+    start: 1725559200n,
+    end: 1726855200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0xf9ed1dba3b6ba1ede10e2115a9554e9c52091c9f1b1af21f9e0fecc855ee74bf",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1250", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // hyUSD/eUSD Base 1,250 eUSD 09/05-09/20 6pm GMT
+  {
+    start: 1725559200n,
+    end: 1726855200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1250", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // ETH+/eUSD Mainnet 1,250 eUSD 09/05-09/20 6pm GMT
+  {
+    start: 1725559200n,
+    end: 1726855200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    marketId: "0x3f4d007982a480dd99052c05d811cf6838ce61b2a2be8dc52fca107f783d1f15",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1250", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
