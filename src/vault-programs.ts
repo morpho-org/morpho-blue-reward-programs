@@ -152,6 +152,28 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("25000", 6),
     chainId: ChainId.BASE,
   },
+  // pythUSDC Vault - 25,000 PYTH 09/07-12/07 OO:00 UTC
+  {
+    start: 1725663600n,
+    end: 1733529600n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    vault: "0x0FaBfEAcedf47e890c50C8120177fff69C6a1d9B",
+    amount: parseUnits("25000", 6),
+    chainId: ChainId.BASE,
+  },
+  // pythETH Vault - 25,000 PYTH 09/07-12/07 OO:00 UTC
+  {
+    start: 1725663600n,
+    end: 1733529600n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    vault: "0x80D9964fEb4A507dD697b4437Fc5b25b618CE446",
+    amount: parseUnits("25000", 6),
+    chainId: ChainId.BASE,
+  },
   // LlamaRisk crvUSD Vault (Epoch 2) - 30,450 CRV over 2 weeks
   {
     start: 1723223108n, // Fri Aug 09 2024 17:05:08 GMT+0000
