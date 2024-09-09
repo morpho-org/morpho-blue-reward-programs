@@ -824,8 +824,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // pythUSDC - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
   {
-    start: 1725663600n,
-    end: 1733529600n,
+    start: 1725915600n,
+    end: 1733778000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
@@ -839,8 +839,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // pythUSDC - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
   {
-    start: 1725663600n,
-    end: 1733529600n,
+    start: 1725915600n,
+    end: 1733778000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
@@ -854,8 +854,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // pythETH - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
   {
-    start: 1725663600n,
-    end: 1733529600n,
+    start: 1725915600n,
+    end: 1733778000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
@@ -869,8 +869,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // pythETH - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
   {
-    start: 1725663600n,
-    end: 1733529600n,
+    start: 1725915600n,
+    end: 1733778000n,
     fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
