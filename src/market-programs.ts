@@ -822,7 +822,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // pythUSDC - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  // pythUSDC - weETH borrow rewards 25,0000 PYTH 09/16-12/16 00:00 UTC
   {
     start: 1726520400n,
     end: 1734382800n,
@@ -832,7 +832,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0xa4e2843486610e6851f4e0a8fcdee819958598c71c7e99b0315904ccf162ddc3",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("50000", 18),
+      borrow: parseUnits("50000", 6),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -852,7 +852,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // pythUSDC - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  // pythUSDC - ezETH borrow rewards 25,0000 PYTH 09/16-12/16 00:00 UTC
   {
     start: 1726520400n,
     end: 1734382800n,
@@ -862,7 +862,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x026ecee9b3a8d0ce979837333349cfc2075a2af6cd9b41c1c1d9fa16c44e54c5",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("25000", 18),
+      borrow: parseUnits("25000", 6),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
@@ -882,7 +882,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // pythETH - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  // pythETH - weETH borrow rewards 25,0000 PYTH 09/16-12/16 00:00 UTC
   {
     start: 1726520400n,
     end: 1734382800n,
@@ -892,12 +892,12 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("50000", 18),
+      borrow: parseUnits("50000", 6),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
   },
-  // pythETH - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  // pythETH - ezETH borrow rewards 25,0000 PYTH 09/16-12/16 00:00 UTC
   {
     start: 1726520400n,
     end: 1734382800n,
@@ -907,7 +907,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0xc338cc2dc3f6a25bace40a920eea39ff27f184899def6bda478e27e591e5cef2",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("25000", 18),
+      borrow: parseUnits("25000", 6),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
