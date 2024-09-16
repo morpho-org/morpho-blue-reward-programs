@@ -822,6 +822,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // pythUSDC - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  {
+    start: 1726520400n,
+    end: 1734382800n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    marketId: "0xa4e2843486610e6851f4e0a8fcdee819958598c71c7e99b0315904ccf162ddc3",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("50000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
   // bsdETH/eUSD Base 1,250 eUSD 09/05-09/20 6pm GMT
   {
     start: 1725559200n,
@@ -837,6 +852,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // pythUSDC - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  {
+    start: 1726520400n,
+    end: 1734382800n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    marketId: "0x026ecee9b3a8d0ce979837333349cfc2075a2af6cd9b41c1c1d9fa16c44e54c5",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("25000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
   // hyUSD/eUSD Base 1,250 eUSD 09/05-09/20 6pm GMT
   {
     start: 1725559200n,
@@ -848,6 +878,36 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     rewardAmount: {
       supply: 0n,
       borrow: parseUnits("1250", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // pythETH - weETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  {
+    start: 1726520400n,
+    end: 1734382800n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    marketId: "0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("50000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // pythETH - ezETH borrow rewards 25,0000 PYTH 09/6-12/06 00:00 UTC
+  {
+    start: 1726520400n,
+    end: 1734382800n,
+    fundsSender: "0xAaB35e8702D783428EE2e1929CDB99e58093C3E2",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x4c5d8A75F3762c1561D96f177694f67378705E98",
+    marketId: "0xc338cc2dc3f6a25bace40a920eea39ff27f184899def6bda478e27e591e5cef2",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("25000", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
