@@ -927,10 +927,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // cbETH/EURC 12,500 USDC 09/30/2024 10/31/2024 1pm EST
+  // cbETH/EURC 12,500 USDC 09/24/2024 11/08/2024 1pm EST
   {
-    start: 1727701200n,
-    end: 1730379600n,
+    start: 1727197200n,
+    end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
@@ -942,10 +942,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // WETH/EURC 12,500 EURC 09/30/2024 10/31/2024 1pm EST
+  // WETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
   {
-    start: 1727701200n,
-    end: 1730379600n,
+    start: 1727197200n,
+    end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
@@ -957,10 +957,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // wstETH/EURC 12,500 EURC 09/30/2024 10/31/2024  1pm EST
+  // wstETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
   {
-    start: 1727701200n,
-    end: 1730379600n,
+    start: 1727197200n,
+    end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
@@ -972,10 +972,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // cbBTC/EURC 12,500 EURC 09/30/2024 10/31/2024 1pm EST
+  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
   {
-    start: 1727701200n,
-    end: 1730379600n,
+    start: 1727197200n,
+    end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
