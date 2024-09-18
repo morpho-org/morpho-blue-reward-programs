@@ -927,7 +927,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // cbETH/EURC 12,500 USDC 06/21/2024 07/20/2024 10am EST
+  // cbETH/EURC 12,500 USDC 09/30/2024 10/31/2024 1pm EST
   {
     start: 1727701200n,
     end: 1730379600n,
@@ -942,7 +942,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // WETH/EURC 12,500 USDC 06/21/2024 07/20/2024 10am EST
+  // WETH/EURC 12,500 EURC 09/30/2024 10/31/2024 1pm EST
   {
     start: 1727701200n,
     end: 1730379600n,
@@ -957,7 +957,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // wstETH/EURC 12,500 USDC 06/21/2024 07/20/2024 10am EST
+  // wstETH/EURC 12,500 EURC 09/30/2024 10/31/2024  1pm EST
   {
     start: 1727701200n,
     end: 1730379600n,
@@ -972,7 +972,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // cbBTC/EURC 12,500 USDC 06/21/2024 07/20/2024 10am EST
+  // cbBTC/EURC 12,500 EURC 09/30/2024 10/31/2024 1pm EST
   {
     start: 1727701200n,
     end: 1730379600n,
