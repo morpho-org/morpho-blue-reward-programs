@@ -115,7 +115,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa",
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
-    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
     amount: parseUnits("3500000", 18),
     chainId: ChainId.BASE,
   },
