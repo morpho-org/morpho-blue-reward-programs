@@ -115,7 +115,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa",
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
-    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
     amount: parseUnits("3500000", 18),
     chainId: ChainId.BASE,
   },
@@ -260,6 +260,28 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
     vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
     amount: parseUnits("29000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Re7 eUSD Vault - 43,750 eUSD 09/20-10/20 6pm GMT
+  {
+    start: 1726855200n,
+    end: 1729447200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("43750", 18),
+    chainId: ChainId.BASE,
+  },
+  // Guntlet eUSD Core Vault - 60,000 eUSD 09/20-10/20 6pm GMT
+  {
+    start: 1726855200n,
+    end: 1729447200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("60000", 18),
     chainId: ChainId.MAINNET,
   },
 ];
