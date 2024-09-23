@@ -1049,8 +1049,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // cbBTC/USDC 10,000 USDC on Mainnet 09/26/2024 10/03/2024 1pm EST
   {
-    start: 1727384400n,
-    end: 1727989200n,
+    start: 1727370000n,
+    end: 1727974800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
