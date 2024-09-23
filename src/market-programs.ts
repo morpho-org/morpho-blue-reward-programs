@@ -987,4 +987,64 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // cbETH/EURC 12,500 USDC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x7fc498ddcb7707d6f85f6dc81f61edb6dc8d7f1b47a83b55808904790564929a",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // WETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0xa9b5142fa687a24c275faf731f13b52faa9873252bb4e1cb6077aa1f412edb0b",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0xf7e40290f8ca1d5848b3c129502599aa0f0602eb5f5235218797a34242719561",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x536e3e39fd6c07148b38555e5e312e3874e1d08027e007d12822375524ccaa8c",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
 ];
