@@ -1034,7 +1034,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
   {
-    start: 1727197200n, 
+    start: 1727197200n,
     end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
