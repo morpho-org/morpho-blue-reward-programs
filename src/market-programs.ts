@@ -1032,16 +1032,16 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST - Update to 555 and change end date to 09/26/2024
   {
     start: 1727197200n,
-    end: 1731088800n,
+    end: 1727370000n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
     marketId: "0x536e3e39fd6c07148b38555e5e312e3874e1d08027e007d12822375524ccaa8c",
     rewardAmount: {
-      supply: parseUnits("12500", 6),
+      supply: parseUnits("555", 6),
       borrow: 0n,
       collateral: 0n,
     },
@@ -1075,5 +1075,20 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
       collateral: 0n,
     },
     chainId: ChainId.MAINNET,
+  },
+  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727370000n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x67ebd84b2fb39e3bc5a13d97e4c07abe1ea617e40654826e9abce252e95f049e",
+    rewardAmount: {
+      supply: parseUnits("11945", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
   },
 ];
