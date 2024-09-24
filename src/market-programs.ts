@@ -1059,7 +1059,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
       supply: parseUnits("2500", 6),
       borrow: parseUnits("7500", 6),
       collateral: 0n,
-    }
+    },
+    chainId: ChainId.MAINNET,
   },
   {
     start: 1727764200n,
