@@ -1047,6 +1047,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // cbBTC/USDC 10,000 USDC on Mainnet 09/26/2024 10/03/2024 1pm EST
+  {
+    start: 1727370000n,
+    end: 1727974800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    marketId: "0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("7500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
   {
     start: 1727764200n,
     end: 1728887400n,
