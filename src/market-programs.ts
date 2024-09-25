@@ -1032,7 +1032,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // cbBTC/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST - Update to 555 and change end date to 09/26/2024
+  // cbBTC/EURC 12,500 EURC 09/24/2024 09/26/2024 1pm EST - Update to 555 and change end date to 09/26/2024
   {
     start: 1727197200n,
     end: 1727370000n,
