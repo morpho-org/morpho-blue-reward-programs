@@ -1076,10 +1076,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // wstETH / USDT Mainnet 0.0367 WETH 09/25/2024 10/25/2024 1pm GMT
+  // wstETH / USDT Mainnet 0.0367 WETH 10/03/2024 11/03/2024 1pm GMT
   {
-    start: 1727269200n,
-    end: 1729861200n,
+    start: 1727960400n,
+    end: 1730638800n,
     fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -1091,10 +1091,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // pufETH / USDC Mainnet 0.289 WETH 09/25/2024 10/25/2024 1pm GMT
+  // pufETH / USDC Mainnet 0.289 WETH 10/03/2024 11/03/2024 1pm GMT
   {
-    start: 1727269200n,
-    end: 1729861200n,
+    start: 1727960400n,
+    end: 1730638800n,
     fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -1106,16 +1106,16 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // tBTC / USDC Mainnet 2.187 WETH 09/25/2024 10/25/2024 1pm GMT
+  // tBTC / USDC Mainnet 2.187 WETH 10/03/2024 11/03/2024 1pm GMT
   {
-    start: 1727269200n,
-    end: 1729861200n,
+    start: 1727960400n,
+    end: 1730638800n,
     fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     marketId: "0xe4cfbee9af4ad713b41bf79f009ca02b17c001a0c0e7bd2e6a89b1111b3d3f08",
     rewardAmount: {
-      supply: 2187900260461928154n,
+      supply: 2187900260461918841n,
       borrow: 0n,
       collateral: 0n,
     },
