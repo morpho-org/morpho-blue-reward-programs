@@ -1076,9 +1076,9 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // cbBTC/EURC 11,945 EURC 09/26/2024 11/08/2024 1pm EST
+  // cbBTC/EURC 11,945 EURC 09/27/2024 11/08/2024 1pm EST
   {
-    start: 1727370000n,
+    start: 1727449200n,
     end: 1731088800n,
     fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
