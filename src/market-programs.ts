@@ -1070,8 +1070,8 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
     marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
     rewardAmount: {
-      supply: parseUnits("5000", 6),
-      borrow: 0n,
+      supply: parseUnits("2500", 18),
+      borrow: parseUnits("2500", 18),
       collateral: 0n,
     },
     chainId: ChainId.MAINNET,
