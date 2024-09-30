@@ -1068,10 +1068,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-    marketId: "0xeeabdcb98e9f7ec216d259a2c026bbb701971efae0b44eec79a86053f9b128b6",
+    marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
     rewardAmount: {
-      supply: parseUnits("5000", 6),
-      borrow: 0n,
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("2500", 6),
       collateral: 0n,
     },
     chainId: ChainId.MAINNET,
