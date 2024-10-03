@@ -2,13 +2,13 @@
 
 This repository allows you to create your own reward program by submitting a pull request.
 
-### **⚠️ Warning ⚠️** 
+<div style="text-align: center; color: red"> <h3> ⚠️ Warning ⚠️ </h3> </div>
 
 <div style="border: 1px solid; padding: 10px; justify-content: center; align-items: center; height: 110px;">
 
-**- The pull request must be created at least one week before the start of the program.**
+**- The pull request must be submitted at least one week before the start of the program.**
 
-**- The funds must be sent to the URD before the pull request is merged. Ideally, the funds should be sent at the same time as the pull request is created.**
+**- The funds must be sent to the URD before the pull request is submitted. Please share the transaction link in the pull request template**
 
 </div>
 
