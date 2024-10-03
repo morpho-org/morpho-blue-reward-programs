@@ -2,7 +2,15 @@
 
 This repository allows you to create your own reward program by submitting a pull request.
 
-**⚠️ Warning:** Please anticipate with one week before the start of the program to ensure smooth implementation and avoid any last-minute issues.
+<div style="text-align: center; color: red"> <h3> ⚠️ Warning ⚠️ </h3> </div>
+
+<div style="border: 1px solid; padding: 10px; justify-content: center; align-items: center; height: 110px;">
+
+**- The pull request must be submitted at least one week before the start of the program.**
+
+**- The funds must be sent to the URD before the pull request is submitted. Please share the transaction link in the pull request template**
+
+</div>
 
 ### Create a Market program
 
@@ -67,6 +75,8 @@ Yes, they can affect the reward distribution. If your program does not intend to
 
 If funds arrive after the start date, the program won't start immediately, but the funds are not lost. They can be used to reschedule the program or initiate a new one later on.
 
+Note that a reward program pull request will not be merged if the funds have not been sent to the URD.
+
 4. In case of multiple rewards programs, should I send all funds?
 
-it is up to the incentives provider. If multiple programs are created, it's essential that the URD receives the rewards dedicated to each program before their respective start dates. Even if a program starts in one month, as long as its dedicated rewards are received before its start date, it will be considered valid.
+It is up to the incentives provider. If multiple programs are created, it's essential that the URD receives the rewards dedicated to each program before their respective start dates. Even if a program starts in one month, as long as its dedicated rewards are received before its start date, it will be considered valid.
