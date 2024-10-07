@@ -1160,7 +1160,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
     marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
     rewardAmount: {
-      supply: 3150000000000000000n,
+      supply: parseUnits("3.15", 18),
       borrow: 0n,
       collateral: 0n,
     },
@@ -1175,7 +1175,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
     marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
     rewardAmount: {
-      supply: 6350000000000000000n,
+      supply: parseUnits("6.35", 18),
       borrow: 0n,
       collateral: 0n,
     },
