@@ -1151,4 +1151,34 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // USDC/PAXG 3.15 PAXG on Mainnet 10/08/2024 11/08/2024 1pm GMT
+  {
+    start: 1728392400n,
+    end: 1731070800n,
+    fundsSender: "0x264bd8291fAE1D75DB2c5F573b07faA6715997B5",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
+    rewardAmount: {
+      supply: parseUnits("3.15", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // USDC/PAXG 6.35 PAXG on Mainnet 11/08/2024 12/08/2024 1pm GMT
+  {
+    start: 1731070800n,
+    end: 1733662800n,
+    fundsSender: "0x264bd8291fAE1D75DB2c5F573b07faA6715997B5",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
+    rewardAmount: {
+      supply: parseUnits("6.35", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
