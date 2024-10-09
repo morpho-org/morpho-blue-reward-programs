@@ -1185,7 +1185,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   {
     start: 1728930600n,
     end: 1730053800n,
-    fundersSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B"
+    fundersSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
     tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
     urdAddress: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
     marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
@@ -1194,6 +1194,6 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
       borrow: parseUnits("2500", 6),
       collateral: 0n,
     },
-    chainId: ChainId.MAINNET
+    chainId: ChainId.MAINNET,
   },
 ];
