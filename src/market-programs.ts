@@ -1181,7 +1181,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-    {
+  {
     start: 1728930600n,
     end: 1730053800n,
     fundersSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B"
