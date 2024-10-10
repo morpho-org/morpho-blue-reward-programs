@@ -1196,4 +1196,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  //  PAXG/USDC supply rewards 50,000 PYTH 10/17-12/17 12:00:00 GMT
+  {
+    start: 1729166400n,
+    end: 1734436800n,
+    fundsSender: "0xE64fD4d6f8128A27365Bee615eC9eD33979c782C",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xeFc0CED4B3D536103e76a1c4c74F0385C8F4Bdd3",
+    marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
+    rewardAmount: {
+      supply: parseUnits("50000", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
