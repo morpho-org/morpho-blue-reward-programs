@@ -295,4 +295,15 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("17.5", 18),
     chainId: ChainId.BASE,
   },
+  // LlamaRisk crvUSD Vault (Epoch 6) - 7500 CRV over 2 weeks
+  {
+    start: 1729271108n, // Fri Oct 18 2024 17:05:08 GMT+0000
+    end: 1730480708n, // Fri Nov 01 2024 17:05:08 GMT+0000
+    fundsSender: "0x7e246fAce452AC43F5dC60c41EE14C88c37951c6", // LlamaRisk aggregator multisig
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
+    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
+    amount: parseUnits("7500", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];
