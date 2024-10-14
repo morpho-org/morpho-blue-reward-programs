@@ -1181,6 +1181,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // Add rsETH/WETH incentives 15/10/2024 - 28/10/2024
+  {
+    start: 1728930600n,
+    end: 1730053800n,
+    fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
+    tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("2500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
   // uSOL/USDC 17.5 uSOL on Base 10/10/2024 10/24/2024 3pm GMT
   {
     start: 1728572400n,
