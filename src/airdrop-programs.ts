@@ -29,7 +29,7 @@ export const airdropPrograms: AirdropRewardProgramArgs[] = [
     fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
     urdAddress: "0x330eefa8a787552dc5cad3c3ca644844b1e61ddb",
     tokenAddress: "0x9994E35Db50125E0DF82e4c2dde62496CE330999",
-    cidV0: "QmQfqJFzi43vA9PLZtL9jdXBed3yjWCjjnpKoBJFLnwi9U",
+    cidV0: "QmbfETB4KZG96tjfPZLJHb8Xn1bjNbfK9vyUcdgfsm33WG",
     chainId: ChainId.MAINNET,
   },
 ];
