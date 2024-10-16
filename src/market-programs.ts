@@ -987,4 +987,318 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // cbETH/EURC 12,500 USDC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x7fc498ddcb7707d6f85f6dc81f61edb6dc8d7f1b47a83b55808904790564929a",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // WETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0xa9b5142fa687a24c275faf731f13b52faa9873252bb4e1cb6077aa1f412edb0b",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/EURC 12,500 EURC 09/24/2024 11/08/2024 1pm EST
+  {
+    start: 1727197200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0xf7e40290f8ca1d5848b3c129502599aa0f0602eb5f5235218797a34242719561",
+    rewardAmount: {
+      supply: parseUnits("12500", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/EURC 12,500 EURC 09/24/2024 09/26/2024 1pm EST - Update to 555 and change end date to 09/26/2024
+  {
+    start: 1727197200n,
+    end: 1727370000n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x536e3e39fd6c07148b38555e5e312e3874e1d08027e007d12822375524ccaa8c",
+    rewardAmount: {
+      supply: parseUnits("555", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/USDC 10,000 USDC on Mainnet 09/26/2024 10/03/2024 1pm EST
+  {
+    start: 1727370000n,
+    end: 1727974800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    marketId: "0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("7500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  {
+    start: 1727764200n,
+    end: 1728887400n,
+    fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("2500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // cbBTC/EURC 11,945 EURC 09/27/2024 11/08/2024 1pm EST
+  {
+    start: 1727449200n,
+    end: 1731088800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x67ebd84b2fb39e3bc5a13d97e4c07abe1ea617e40654826e9abce252e95f049e",
+    rewardAmount: {
+      supply: parseUnits("11945", 6),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH / USDT Mainnet 0.0367 WETH 10/03/2024 11/03/2024 1pm GMT
+  {
+    start: 1727960400n,
+    end: 1730638800n,
+    fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    marketId: "0x6a6c8e41a6a7ccbea68e1e6a19ece1fdd863b2b6c9e0f71bbcd4dcbe8b1062e8",
+    rewardAmount: {
+      supply: 36781467642438822n,
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // pufETH / USDC Mainnet 0.289 WETH 10/03/2024 11/03/2024 1pm GMT
+  {
+    start: 1727960400n,
+    end: 1730638800n,
+    fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    marketId: "0x7e9c708876fa3816c46aeb08937b51aa0461c2af3865ecb306433db8a80b1d1b",
+    rewardAmount: {
+      supply: 289490564462092337n,
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // tBTC / USDC Mainnet 2.187 WETH 10/03/2024 11/03/2024 1pm GMT
+  {
+    start: 1727960400n,
+    end: 1730638800n,
+    fundsSender: "0x9Cc5b1bc0E1970D44B5Adc7ba51d76a5DD375434",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    marketId: "0xe4cfbee9af4ad713b41bf79f009ca02b17c001a0c0e7bd2e6a89b1111b3d3f08",
+    rewardAmount: {
+      supply: 2187900260461918841n,
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // cbBTC/USDC 30,000 USDC on Mainnet 10/04/2024 10/18/2024 1pm EST
+  {
+    start: 1728061200n,
+    end: 1729270800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    marketId: "0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64",
+    rewardAmount: {
+      supply: parseUnits("7500", 6),
+      borrow: parseUnits("22500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // USDC/PAXG 3.15 PAXG on Mainnet 10/08/2024 11/08/2024 1pm GMT
+  {
+    start: 1728392400n,
+    end: 1731070800n,
+    fundsSender: "0x264bd8291fAE1D75DB2c5F573b07faA6715997B5",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
+    rewardAmount: {
+      supply: parseUnits("3.15", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // USDC/PAXG 6.35 PAXG on Mainnet 11/08/2024 12/08/2024 1pm GMT
+  {
+    start: 1731070800n,
+    end: 1733662800n,
+    fundsSender: "0x264bd8291fAE1D75DB2c5F573b07faA6715997B5",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    marketId: "0x8eaf7b29f02ba8d8c1d7aeb587403dcb16e2e943e4e2f5f94b0963c2386406c9",
+    rewardAmount: {
+      supply: parseUnits("6.35", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // Add rsETH/WETH incentives 15/10/2024 - 28/10/2024
+  {
+    start: 1728930600n,
+    end: 1730053800n,
+    fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
+    tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("2500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // uSOL/USDC 17.5 uSOL on Base 10/10/2024 10/24/2024 3pm GMT
+  {
+    start: 1728572400n,
+    end: 1729782000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    marketId: "0xa60e9b888f343351dece4df8251abe5858fc5db96e8624d614a6500c3a3085ea",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("17.5", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/USDC 10,000 USDC on Base 10/16/2024 10/23/2024 1pm EST
+  {
+    start: 1729098000n,
+    end: 1729702800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("7500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/USDC 10,000 USDC on Base 10/16/2024 10/23/2024 1pm EST
+  {
+    start: 1729098000n,
+    end: 1729702800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x13c42741a359ac4a8aa8287d2be109dcf28344484f91185f9a79bd5a805a55ae",
+    rewardAmount: {
+      supply: parseUnits("2500", 6),
+      borrow: parseUnits("7500", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // bsdETH/eUSD Base 3,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0xf9ed1dba3b6ba1ede10e2115a9554e9c52091c9f1b1af21f9e0fecc855ee74bf",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("3000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // hyUSD/eUSD Base 3,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("3000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // ETH+/eUSD Mainnet 2,500 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    marketId: "0x3f4d007982a480dd99052c05d811cf6838ce61b2a2be8dc52fca107f783d1f15",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("2500", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // USD3/eUSD Mainnet 2,500 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    marketId: "0xf6422731a8f84d9ab7e8b6da15ab9ecc243e12a78200dfb7fd1cdf2391e38068",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("2500", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];

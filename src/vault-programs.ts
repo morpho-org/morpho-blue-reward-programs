@@ -75,7 +75,18 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("8330000", 18),
     chainId: ChainId.BASE,
   },
-  // Moonwell Flagship USDC 12,500,000 WELL
+  // Moonwell Flagship EURC 1,500,000 WELL
+  {
+    start: 1726758000n,
+    end: 1729087200n,
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
+    amount: parseUnits("1500000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Moonwell Flagship USDC 10,000,000 WELL
   {
     start: 1729087200n,
     end: 1734271200n,
@@ -83,10 +94,10 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
     vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
-    amount: parseUnits("12500000", 18),
+    amount: parseUnits("10000000", 18),
     chainId: ChainId.BASE,
   },
-  // Moonwell Flagship ETH 12,500,000 WELL
+  // Moonwell Flagship ETH 10,000,000 WELL
   {
     start: 1729087200n,
     end: 1734271200n,
@@ -94,7 +105,18 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
     vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
-    amount: parseUnits("12500000", 18),
+    amount: parseUnits("10000000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Moonwell Flagship EURC 3,500,000 WELL
+  {
+    start: 1729087200n,
+    end: 1734271200n,
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
+    amount: parseUnits("3500000", 18),
     chainId: ChainId.BASE,
   },
   // LlamaRisk crvUSD Vault - 47,777 CRV over 1 month
@@ -255,6 +277,39 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   {
     start: 1726855200n,
     end: 1729447200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("60000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Re7 Universal USDC Vault - 17.5 uSOL 10/10-10/24 3pm GMT
+  {
+    start: 1728572400n,
+    end: 1729782000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("17.5", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 eUSD Vault - 43,750 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("43750", 18),
+    chainId: ChainId.BASE,
+  },
+  // Guntlet eUSD Core Vault - 60,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
