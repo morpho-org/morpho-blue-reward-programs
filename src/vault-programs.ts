@@ -295,6 +295,28 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("17.5", 18),
     chainId: ChainId.BASE,
   },
+  // Re7 eUSD Vault - 43,750 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("43750", 18),
+    chainId: ChainId.BASE,
+  },
+  // Gauntlet eUSD Core Vault - 60,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("60000", 18),
+    chainId: ChainId.MAINNET,
+  },
   // LlamaRisk crvUSD Vault (Epoch 6) - 7500 CRV over 2 weeks
   {
     start: 1729271108n, // Fri Oct 18 2024 17:05:08 GMT+0000

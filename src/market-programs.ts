@@ -1256,4 +1256,64 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // bsdETH/eUSD Base 3,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0xf9ed1dba3b6ba1ede10e2115a9554e9c52091c9f1b1af21f9e0fecc855ee74bf",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("3000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // hyUSD/eUSD Base 3,000 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    marketId: "0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("3000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // ETH+/eUSD Mainnet 2,500 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    marketId: "0x3f4d007982a480dd99052c05d811cf6838ce61b2a2be8dc52fca107f783d1f15",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("2500", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // USD3/eUSD Mainnet 2,500 eUSD 10/20-11/20 6pm GMT
+  {
+    start: 1729447200n,
+    end: 1732125600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    marketId: "0xf6422731a8f84d9ab7e8b6da15ab9ecc243e12a78200dfb7fd1cdf2391e38068",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("2500", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
