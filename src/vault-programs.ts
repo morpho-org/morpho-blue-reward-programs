@@ -328,4 +328,26 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("7500", 18),
     chainId: ChainId.MAINNET,
   },
+  // Re7 WETH Vault (Base) - 20,000 eUSD 10/24-11/24 6pm GMT
+  {
+    start: 1729792800n,
+    end: 1732471200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xA2Cac0023a4797b4729Db94783405189a4203AFc",
+    amount: parseUnits("20000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Gauntlet WETH Core Vault (Base) - 20,000 eUSD 10/24-11/24 6pm GMT
+  {
+    start: 1729792800n,
+    end: 1732471200n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0x6b13c060F13Af1fdB319F52315BbbF3fb1D88844",
+    amount: parseUnits("20000", 18),
+    chainId: ChainId.BASE,
+  },
 ];
