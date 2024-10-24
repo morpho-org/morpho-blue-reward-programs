@@ -1302,4 +1302,35 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // cbBTC/USDC 20,000 USDC on Base 10/28/2024 11/11/2024 1pm EST
+  {
+    start: 1730134800n,
+    end: 1731348000n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836",
+    rewardAmount: {
+      supply: parseUnits("5000", 6),
+      borrow: parseUnits("15000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/USDC 20,000 USDC on Base 10/28/2024 11/11/2024 1pm EST
+  {
+    start: 1730134800n,
+    end: 1731348000n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x13c42741a359ac4a8aa8287d2be109dcf28344484f91185f9a79bd5a805a55ae",
+    rewardAmount: {
+      supply: parseUnits("5000", 6),
+      borrow: parseUnits("15000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+
 ];
