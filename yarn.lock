@@ -608,10 +608,10 @@
     "@morpho-org/morpho-ts" "^1.4.5"
     viem "^2.9.31"
 
-"@morpho-org/blue-rewards-core-sdk@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.13.tgz#1bf89c2a8e06755a9f9b140cd503ee862454df40"
-  integrity sha512-g/dVDEOZ4XF+oibCj5y37TIZNtZpppld8An+9MYpiGQuH/Wb5G9x8oT6kaNYz2K2R5l+agM4IP8oZPI4oYMZQw==
+"@morpho-org/blue-rewards-core-sdk@0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@morpho-org/blue-rewards-core-sdk/-/blue-rewards-core-sdk-0.0.20.tgz#d2e9540600ea2ae54fd27dc02829b55f36f244f7"
+  integrity sha512-JYJq5xX3n8hD2p+m0TqtKBJjpsY/jrDObf8x1KIPZrkVnGLAQGbJg+4IR3gCp6XGNktByyKLsLfEpCdKsGHFhA==
   dependencies:
     "@morpho-org/blue-reward-programs" "^1.4.48"
     "@morpho-org/blue-sdk" "^1.12.4"
