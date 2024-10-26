@@ -1334,7 +1334,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   },
   // rsETH/WETH 5000 USDC on Ethereum 10/31/2024 to 11/14/2024 00:00 UTC
   {
-    start: 1730313000,
+    start: 1730313000n,
     end: 1731522600n,
     fundsSender: "0x5979d13d648c831607A63cCCaaEEB917b6BDB622",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
