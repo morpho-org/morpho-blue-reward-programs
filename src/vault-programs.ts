@@ -361,4 +361,26 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("15000", 18),
     chainId: ChainId.MAINNET,
   },
+  // Re7 Universal USDC Vault - 6.52 uSOL 10/30-11/13 3pm GMT
+  {
+    start: 1730300400n,
+    end: 1731510000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("6.5223053386", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 Universal USDC Vault - 525.97 uSUI 10/30-11/13 3pm GMT
+  {
+    start: 1730300400n,
+    end: 1731510000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("525.9721846763", 18),
+    chainId: ChainId.BASE,
+  },
 ];
