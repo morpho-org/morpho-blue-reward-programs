@@ -1377,4 +1377,18 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // wrsETH/WETH 3000 USDC on Base 11/06/2024 to 11/20/2024 00:00
+  {
+    start: 1730831400n,
+    end: 1732041000n,
+    fundsSender: "0x936DC723508ce4C708e085dB9132c4A62Bfc69Ed",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    marketId: "0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561",
+    rewardAmount: {
+      supply: parseUnits("375", 6),
+      borrow: parseUnits("1125", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
 ];
