@@ -2,11 +2,22 @@
 
 This repository allows you to create your own reward program by submitting a pull request.
 
-### ⚠️ Warning ⚠️ 
+### ⚠️ Warning ⚠️
 
 **- The pull request must be submitted at least one week before the start of the program.**
 
 **- The funds must be sent to the URD before the pull request is submitted. Please share the transaction link in the pull request template**
+
+### Pull Request Verification Process
+
+To ensure the accuracy and reliability of each Pull Request, we follow these detailed verification steps before merging:
+
+1.  **Future Start Date**: Confirm that the program’s start date is set in the future.
+2.  **Valid URD Address**: Verify that the urdAddress is a valid URD.
+3.  **Market or Vault verification**: Verify that the specified Market or Vault is valid and whitelisted in the Morpho app.
+4.  **Token Pricing**: Check that the specified token is priced in our API. If not, pause the process until pricing is available.
+5.  **Funds Transfer**: Confirm that the funds have been sent from the designated fundsSender to the URD.
+6.  **Reward Amount Accuracy**: Ensure the reward amount matches the funds sent to the URD, paying special attention to the token’s decimal precision.
 
 ### Create a Market program
 
@@ -50,6 +61,26 @@ export const vaultPrograms = [
     vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
     amount: parseUnits("4165000", 18),
     chainId: ChainId.BASE,
+  },
+];
+```
+
+### Create an Airdrop program
+
+Airdrop Programs can be added in `src/airdrop-programs.ts` at the end of the `airdropPrograms` array. You should send funds to the URD with the funds sender before the start date of the program to validate it.
+
+You can see an example below:
+
+```typescript
+export const vaultPrograms = [
+  {
+    claimDate: 1725840000n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x330eefa8a787552dc5cad3c3ca644844b1e61ddb",
+    tokenAddress: "0x9994E35Db50125E0DF82e4c2dde62496CE330999",
+    cidV0: "QmbfETB4KZG96tjfPZLJHb8Xn1bjNbfK9vyUcdgfsm33WG",
+    chainId: ChainId.MAINNET,
+    totalRewards: parseUnits("600000", 18),
   },
 ];
 ```
