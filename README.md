@@ -67,7 +67,7 @@ export const vaultPrograms = [
 
 ### Create an Airdrop program
 
-Airdrop Programs can be added in `src/airdrop-programs.ts` at the end of the `airdropPrograms` array. You should send funds to the URD with the funds sender before the start date of the program to validate it.
+Airdrop Programs can be added in `src/airdrop-programs.ts` at the end of the `airdropPrograms` array. You should send funds to the URD with the funds sender before the claim date of the program to validate it.
 
 You can see an example below:
 
