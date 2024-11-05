@@ -1391,5 +1391,5 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
       collateral: 0n,
     },
     chainId: ChainId.BASE,
-  }
+  },
 ];
