@@ -383,4 +383,15 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("525.9721846763", 18),
     chainId: ChainId.BASE,
   },
+  // Pendle WBTC Vault - 1000 Pendle 11/14-11/28 6pm GMT
+  {
+    start: 1731607200n,
+    end: 1732816800n,
+    fundsSender: "0x650741eB4f6AB0776B9bF98A3280E3Cd6A2F1BF1", // mev capital ms 2
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0x808507121B80c02388fAd14726482e061B8da827", // Pendle token
+    vault: "0x2f1aBb81ed86Be95bcf8178bA62C8e72D6834775", // Pendle WBTC vault
+    amount: parseUnits("2000", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];
