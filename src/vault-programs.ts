@@ -350,4 +350,70 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("20000", 18),
     chainId: ChainId.BASE,
   },
+  // LlamaRisk crvUSD Vault (Epoch 7) - 15_000 CRV over 4 weeks
+  {
+    start: 1730480708n, // Fri Nov 01 2024 17:05:08 GMT+0000
+    end: 1732899908n, // Fri Nov 29 2024 17:05:08 GMT+0000
+    fundsSender: "0x7e246fAce452AC43F5dC60c41EE14C88c37951c6", // LlamaRisk aggregator multisig
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
+    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
+    amount: parseUnits("15000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Re7 Universal USDC Vault - 6.52 uSOL 10/30-11/13 3pm GMT
+  {
+    start: 1730300400n,
+    end: 1731510000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("6.5223053386", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 Universal USDC Vault - 525.97 uSUI 10/30-11/13 3pm GMT
+  {
+    start: 1730300400n,
+    end: 1731510000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("525.9721846763", 18),
+    chainId: ChainId.BASE,
+  },
+  // Pendle WBTC Vault - 1000 Pendle 11/14-11/28 6pm GMT
+  {
+    start: 1731607200n,
+    end: 1732816800n,
+    fundsSender: "0x650741eB4f6AB0776B9bF98A3280E3Cd6A2F1BF1", // mev capital ms 2
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0x808507121B80c02388fAd14726482e061B8da827", // Pendle token
+    vault: "0x2f1aBb81ed86Be95bcf8178bA62C8e72D6834775", // Pendle WBTC vault
+    amount: parseUnits("2000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Re7 eUSD Vault - 43,750 eUSD 11/20-12/20 6pm GMT
+  {
+    start: 1732125600n,
+    end: 1734717600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("43750", 18),
+    chainId: ChainId.BASE,
+  },
+  // Gauntlet eUSD Core Vault - 60,000 eUSD 11/20-12/20 6pm GMT
+  {
+    start: 1732125600n,
+    end: 1734717600n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("60000", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];

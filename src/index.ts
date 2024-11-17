@@ -113,5 +113,6 @@ function toAirdropRewardProgram(args: AirdropRewardProgramArgs): AirdropRewardPr
     distributor,
     chainId: args.chainId,
     cidV0: args.cidV0,
+    totalRewards: args.totalRewards,
   });
 }
