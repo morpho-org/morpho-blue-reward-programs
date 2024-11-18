@@ -402,7 +402,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
     tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
-    amount: parseUnits("1939.79522", 18),
+    amount: parseUnits("1939.79522", 6),
     chainId: ChainId.BASE,
   },
 ];
