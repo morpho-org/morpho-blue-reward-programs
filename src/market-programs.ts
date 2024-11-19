@@ -1467,6 +1467,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // rsETH/WETH 5000 USDC on Ethereum 11/21/2024 to 12/05/2024 00:00 UTC
+  {
+    start: 1732127400n,
+    end: 1733337000n,
+    fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    marketId: "0xba761af4134efb0855adfba638945f454f0a704af11fc93439e20c7c5ebab942",
+    rewardAmount: {
+      supply: parseUnits("1250", 6),
+      borrow: parseUnits("3750", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
   // ETH+/eUSD Mainnet 2,500 eUSD 11/20-12/20 6pm GMT
   {
     start: 1732125600n,
