@@ -1422,6 +1422,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // uSOL/USDC 14.09 uSOL on Base 11/21/2024 01/09/2025 9pm GMT
+  {
+    start: 1732222800n,
+    end: 1736456400n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    marketId: "0xa60e9b888f343351dece4df8251abe5858fc5db96e8624d614a6500c3a3085ea",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("14.09379439742139", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
   // hyUSD/eUSD Base 3,000 eUSD 11/20-12/20 6pm GMT
   {
     start: 1732125600n,
@@ -1433,6 +1448,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     rewardAmount: {
       supply: 0n,
       borrow: parseUnits("3000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // uSUI/USDC 887.97 uSUI on Base 11/21/2024 01/09/2025 9pm GMT
+  {
+    start: 1732222800n,
+    end: 1736456400n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
+    marketId: "0x5d96564285fc3830f51fe495f88c29cc1232fbca61ca8b6edc25bff921efdef2",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("887.97010208566", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
