@@ -452,7 +452,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   // LlamaRisk crvUSD Vault (Epoch 8) - 13_514 CRV over 6 weeks
   {
     start: 1732899908n, // Fri Nov 01 2024 17:05:08 GMT+0000
-    end: 1736528708n, // 	Fri Jan 10 2025 17:05:08 GMT+0000
+    end: 1736528708n, // Fri Jan 10 2025 17:05:08 GMT+0000
     fundsSender: "0x7e246fAce452AC43F5dC60c41EE14C88c37951c6", // LlamaRisk aggregator multisig
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
     tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
