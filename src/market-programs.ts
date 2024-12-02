@@ -1512,4 +1512,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // agETH/WETH 5000 USDC on Ethereum 12/04/2024 to 12/18/2024 00:00 UTC
+  {
+    start: 1733250600n,
+    end: 1734460200n,
+    fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    marketId: "0xb7ad412532006bf876534ccae59900ddd9d1d1e394959065cb39b12b22f94ff5",
+    rewardAmount: {
+      supply: parseUnits("750", 6),
+      borrow: parseUnits("750", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
