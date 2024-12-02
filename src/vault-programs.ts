@@ -449,4 +449,27 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("1939.79522", 6),
     chainId: ChainId.BASE,
   },
+  // LlamaRisk crvUSD Vault (Epoch 8) - 13_514 CRV over 6 weeks
+  {
+    start: 1732899908n, // Fri Nov 29 2024 17:05:08 GMT+0000
+    end: 1736528708n, // Fri Jan 10 2025 17:05:08 GMT+0000
+    fundsSender: "0x7e246fAce452AC43F5dC60c41EE14C88c37951c6", // LlamaRisk aggregator multisig
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
+    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
+    amount: parseUnits("13514", 18),
+    chainId: ChainId.MAINNET,
+  },
+
+  // Pendle WBTC Vault - 1000 Pendle 11/29-12/13 6pm GMT
+  {
+    start: 1732903200n,
+    end: 1734112800n,
+    fundsSender: "0x650741eB4f6AB0776B9bF98A3280E3Cd6A2F1BF1", // mev capital ms 2
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0x808507121B80c02388fAd14726482e061B8da827", // Pendle token
+    vault: "0x2f1aBb81ed86Be95bcf8178bA62C8e72D6834775", // Pendle WBTC vault
+    amount: parseUnits("1000", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];
