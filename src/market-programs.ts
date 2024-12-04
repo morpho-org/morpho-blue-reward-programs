@@ -1512,10 +1512,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // agETH/WETH 1500 USDC on Ethereum 12/04/2024 to 12/18/2024 00:00 UTC
+  // agETH/WETH 1500 USDC on Ethereum - Wed Dec 04 2024 19:00:00 GMT+0000 - Wed Dec 18 2024 19:00:00 GMT+0000
   {
-    start: 1733250600n,
-    end: 1734460200n,
+    start: 1733338800n,
+    end: 1734548400n,
     fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -1527,10 +1527,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // wrsETH/WETH 1500 USDC on Base 12/04/2024 to 12/18/2024 00:00 UTC
+  // wrsETH/WETH 1500 USDC on Base - Wed Dec 04 2024 19:00:00 GMT+0000 - Wed Dec 18 2024 19:00:00 GMT+0000
   {
-    start: 1733250600n,
-    end: 1734460200n,
+    start: 1733338800n,
+    end: 1734548400n,
     fundsSender: "0x936DC723508ce4C708e085dB9132c4A62Bfc69Ed",
     urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
     tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -1542,10 +1542,10 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // rsETH/WETH 5000 USDC on Ethereum 12/06/2024 to 12/20/2024 00:00 UTC
+  // rsETH/WETH 5000 USDC on Ethereum - Wed Dec 04 2024 19:00:00 GMT+0000 - Wed Dec 18 2024 19:00:00 GMT+0000
   {
-    start: 1733423400n,
-    end: 1734633000n,
+    start: 1733338800n,
+    end: 1734548400n,
     fundsSender: "0x9cCC7Df2da448BBeA48347822E2A920053B7E67B",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
     tokenAddress: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
