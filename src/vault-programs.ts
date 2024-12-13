@@ -472,4 +472,14 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("1000", 18),
     chainId: ChainId.MAINNET,
   },
+  {
+    start: 1734307200n,
+    end: 1734912000n,
+    fundsSender: "0x1155b614971f16758C92c4890eD338C9e3ede6b7", // ionic
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5", // ion token
+    vault: "0x9aB2d181E4b87ba57D5eD564D3eF652C4E710707", // ionic weth vault
+    amount: parseUnits("191415", 18),
+    chainId: ChainId.BASE,
+  },
 ];
