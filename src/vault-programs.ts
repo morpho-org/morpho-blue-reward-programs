@@ -492,4 +492,148 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("325415", 18),
     chainId: ChainId.BASE,
   },
+
+  // Moonwell Flagship USDC - Monnwell rewards - months 1-2
+  {
+    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
+    end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca", // Moonwell Flagship USDC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship USDC - Monnwell rewards - months 3-4
+  {
+    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca", // Moonwell Flagship USDC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship USDC - Monnwell rewards - months 5-6
+  {
+    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca", // Moonwell Flagship USDC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship EURC - Monnwell rewards - months 1-2
+  {
+    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
+    end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026", // Moonwell Flagship EURC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship EURC - Monnwell rewards - months 3-4
+  {
+    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026", // Moonwell Flagship EURC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship EURC - Monnwell rewards - months 5-6
+  {
+    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026", // Moonwell Flagship EURC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship ETH - Monnwell rewards - months 1-2
+  {
+    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
+    end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1", // Moonwell Flagship ETH
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship ETH - Monnwell rewards - months 3-4
+  {
+    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1", // Moonwell Flagship ETH
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Flagship ETH - Monnwell rewards - months 5-6
+  {
+    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1", // Moonwell Flagship ETH
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Frontier cbBTC - Monnwell rewards - months 1-2
+  {
+    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
+    end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Frontier cbBTC - Monnwell rewards - months 3-4
+  {
+    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
+
+  // Moonwell Frontier cbBTC - Monnwell rewards - months 5-6
+  {
+    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
+    vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
+    amount: parseUnits("1350000", 18),
+    chainId: ChainId.BASE,
+  },
 ];
