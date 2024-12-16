@@ -495,8 +495,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship USDC - Monnwell rewards - month 1
   {
-    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
-    end: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
+    start: 1734372000n, //Mon Dec 16 2024 18:00:00 GMT+0000
+    end: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -507,8 +507,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
     // Moonwell Flagship USDC - Monnwell rewards - month 2
     {
-      start: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
-      end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+      start: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
+      end: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
       fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
       urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
       tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -519,8 +519,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship USDC - Monnwell rewards - months 3-4
   {
-    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
-    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    start: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
+    end: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -531,8 +531,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship USDC - Monnwell rewards - months 5-6
   {
-    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
-    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    start: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
+    end: 1750093200n, //Mon Jun 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -543,8 +543,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship EURC - Monnwell rewards - month 1
   {
-    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
-    end: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
+    start: 1734372000n, //Mon Dec 16 2024 18:00:00 GMT+0000
+    end: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -555,8 +555,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
     // Moonwell Flagship EURC - Monnwell rewards - month 2
     {
-      start: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
-      end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+      start: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
+      end: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
       fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
       urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
       tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -567,8 +567,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship EURC - Monnwell rewards - months 3-4
   {
-    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
-    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    start: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
+    end: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -579,8 +579,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship EURC - Monnwell rewards - months 5-6
   {
-    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
-    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    start: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
+    end: 1750093200n, //Mon Jun 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -591,8 +591,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship ETH - Monnwell rewards - month 1
   {
-    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
-    end: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
+    start: 1734372000n, //Mon Dec 16 2024 18:00:00 GMT+0000
+    end: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -603,8 +603,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
     // Moonwell Flagship ETH - Monnwell rewards - month 2
     {
-      start: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
-      end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+      start: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
+      end: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
       fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
       urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
       tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -615,8 +615,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship ETH - Monnwell rewards - months 3-4
   {
-    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
-    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    start: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
+    end: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -627,8 +627,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Flagship ETH - Monnwell rewards - months 5-6
   {
-    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
-    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    start: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
+    end: 1750093200n, //Mon Jun 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -639,8 +639,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Frontier cbBTC - Monnwell rewards - month 1
   {
-    start: 1734361200n, //Mon Dec 16 2024 15:00:00 GMT+0000
-    end: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
+    start: 1734372000n, //Mon Dec 16 2024 18:00:00 GMT+0000
+    end: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -651,8 +651,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
     // Moonwell Frontier cbBTC - Monnwell rewards - month 2
     {
-      start: 1737039600n, //Thu Jan 16 2025 15:00:00 GMT+0000
-      end: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
+      start: 1737050400n, //Thu Jan 16 2025 18:00:00 GMT+0000
+      end: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
       fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
       urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
       tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -663,8 +663,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Frontier cbBTC - Monnwell rewards - months 3-4
   {
-    start: 1739718000n, //Sun Feb 16 2025 15:00:00 GMT+0000
-    end: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
+    start: 1739728800n, //Sun Feb 16 2025 18:00:00 GMT+0000
+    end: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
@@ -675,8 +675,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
 
   // Moonwell Frontier cbBTC - Monnwell rewards - months 5-6
   {
-    start: 1744812000n, //Wed Apr 16 2025 14:00:00 GMT+0000
-    end: 1750082400n, //Mon Jun 16 2025 14:00:00 GMT+0000
+    start: 1744822800n, //Wed Apr 16 2025 17:00:00 GMT+0000
+    end: 1750093200n, //Mon Jun 16 2025 17:00:00 GMT+0000
     fundsSender: "0x74Cbb1E8B68dDD13B28684ECA202a351afD45EAa", // Moonwell DAO
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
