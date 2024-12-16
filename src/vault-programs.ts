@@ -683,5 +683,5 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
     amount: parseUnits("1350000", 18),
     chainId: ChainId.BASE,
-  },
+  }
 ];
