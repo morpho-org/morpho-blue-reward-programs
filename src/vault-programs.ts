@@ -494,7 +494,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   },
   // Re7 eUSD Vault - 43,750 eUSD 12/20-1/20 6pm GMT
   {
-    start: 11734717600n,
+    start: 1734717600n,
     end: 1737396000n,
     fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
