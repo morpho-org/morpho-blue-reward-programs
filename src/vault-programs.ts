@@ -724,4 +724,27 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("2000", 18),
     chainId: ChainId.MAINNET,
   },
+
+  // Ionic WETH Vault - 380,507 ION 01/06-01/13 6pm GMT
+  {
+    start: 1736186400n,
+    end: 1736791200n,
+    fundsSender: "0x1155b614971f16758C92c4890eD338C9e3ede6b7", // ionic
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5", // ion token
+    vault: "0x5A32099837D89E3a794a44fb131CBbAD41f87a8C", // ionic weth vault
+    amount: parseUnits("380507", 18),
+    chainId: ChainId.BASE,
+  },
+  // Ionic USDC Vault - 636,699 ION 01/06-01/13 6pm GMT
+  {
+    start: 1736186400n,
+    end: 1736791200n,
+    fundsSender: "0x1155b614971f16758C92c4890eD338C9e3ede6b7", // ionic
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5", // ion token
+    vault: "0x23479229e52Ab6aaD312D0B03DF9F33B46753B5e", // ionic usdc vault
+    amount: parseUnits("636699", 18),
+    chainId: ChainId.BASE,
+  },
 ];
