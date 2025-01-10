@@ -51,7 +51,7 @@ export const airdropPrograms: AirdropRewardProgramArgs[] = [
     fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
     urdAddress: "0x330eefa8a787552dc5cad3c3ca644844b1e61ddb",
     tokenAddress: "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
-    cidV0: "QmT6nNE1xKKafwMy9h6MD1GCNJkv96JYvUmyUXQcSwxz6d",
+    cidV0: "QmPrhswLqpaKmBgY6ThCCtQMWoy8YjfwK52hn6f7RK4JJw",
     chainId: ChainId.MAINNET,
     totalRewards: parseUnits("8.501000504032258064", 18),
   },
