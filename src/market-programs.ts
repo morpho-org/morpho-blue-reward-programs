@@ -1631,7 +1631,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // uSOL/USDC 6.53 uSOL on Base 1/20/2025 03/17/2025 3pm GMT
+  // uSOL/USDC 13.076 uSOL on Base 1/20/2025 03/17/2025 3pm GMT
   {
     start: 1737381600n,
     end: 1742220000n,
@@ -1641,12 +1641,12 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0xa60e9b888f343351dece4df8251abe5858fc5db96e8624d614a6500c3a3085ea",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("6.538208431641284", 18),
+      borrow: parseUnits("13.076416863282567294", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
   },
-  // uSUI/USDC 238.03 uSUI on Base 1/20/2025 03/17/2025 3pm GMT
+  // uSUI/USDC 476.06 uSUI on Base 1/20/2025 03/17/2025 3pm GMT
   {
     start: 1737381600n,
     end: 1742220000n,
@@ -1656,12 +1656,12 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x5d96564285fc3830f51fe495f88c29cc1232fbca61ca8b6edc25bff921efdef2",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("238.0334153893274", 18),
+      borrow: parseUnits("476.066830778654776114", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
   },
-  // uAPT/USDC 136.24 uAPT on Base 1/20/2025 03/17/2025 3pm GMT
+  // uAPT/USDC 272.49 uAPT on Base 1/20/2025 03/17/2025 3pm GMT
   {
     start: 1737381600n,
     end: 1742220000n,
@@ -1671,7 +1671,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0xe0a6ea61ee79c0ea05268064525538b8290139b60b972fc83c5d5d26cec7cc89",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("136.24977817197893", 18),
+      borrow: parseUnits("272.499556343957867809", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,
