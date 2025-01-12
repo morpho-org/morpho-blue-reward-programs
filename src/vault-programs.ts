@@ -758,4 +758,37 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("2000", 6),
     chainId: ChainId.BASE,
   },
+  // Re7 Universal USDC Vault - 3.26 uSOL 1/20-3/17 3pm GMT
+  {
+    start: 1737381600n,
+    end: 1742220000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("3.269104215820642", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 Universal USDC Vault - 238.03 uSUI 1/20-3/17 3pm GMT
+  {
+    start: 1737381600n,
+    end: 1742220000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("119.0167076946637", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 Universal USDC Vault - 68.12 uAPT 1/20-3/17 3pm GMT
+  {
+    start: 1737381600n,
+    end: 1742220000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9c0e042d65a2e1fF31aC83f404E5Cb79F452c337",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("68.12488908598947", 18),
+    chainId: ChainId.BASE,
+  },
 ];
