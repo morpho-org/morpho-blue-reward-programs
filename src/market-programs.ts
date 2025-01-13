@@ -1667,7 +1667,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     end: 1742220000n,
     fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
-    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    tokenAddress: "0x9c0e042d65a2e1fF31aC83f404E5Cb79F452c337",
     marketId: "0xe0a6ea61ee79c0ea05268064525538b8290139b60b972fc83c5d5d26cec7cc89",
     rewardAmount: {
       supply: 0n,
