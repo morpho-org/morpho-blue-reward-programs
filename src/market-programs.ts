@@ -1656,7 +1656,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     marketId: "0x5d96564285fc3830f51fe495f88c29cc1232fbca61ca8b6edc25bff921efdef2",
     rewardAmount: {
       supply: 0n,
-      borrow: parseUnits("357.0501230839911", 18),
+      borrow: parseUnits("357.05", 18),
       collateral: 0n,
     },
     chainId: ChainId.BASE,

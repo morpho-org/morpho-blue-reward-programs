@@ -777,7 +777,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
     tokenAddress: "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
     vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
-    amount: parseUnits("119.0167076946637", 18),
+    amount: parseUnits("119.01", 18),
     chainId: ChainId.BASE,
   },
   // Re7 Universal USDC Vault - 68.12 uAPT 1/20-3/17 3pm GMT
