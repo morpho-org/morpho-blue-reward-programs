@@ -555,7 +555,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca", // Moonwell Flagship USDC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("877500", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Flagship USDC - Monnwell rewards - months 3-4
@@ -599,7 +599,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026", // Moonwell Flagship EURC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("573750", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Flagship EURC - Monnwell rewards - months 3-4
@@ -687,7 +687,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("573750", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Frontier cbBTC - Monnwell rewards - months 3-4
