@@ -747,7 +747,17 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("636699", 18),
     chainId: ChainId.BASE,
   },
-
+  // Seamless USDC Vault - 51,851 SEAM over 14 days
+  {
+    start: 1737403200n, // 2025-01-20 20:00:00 GMT+0000
+    end: 1738612800n, // 2025-02-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("51851", 18),
+    chainId: ChainId.BASE,
+  },
   // Ionic WETH Vault - 1,059,041 ION 01/14-01/21 6pm GMT
   {
     start: 1736877600n,
