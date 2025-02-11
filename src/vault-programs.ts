@@ -890,4 +890,15 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("74675", 18),
     chainId: ChainId.BASE,
   },
+  // Seamless ETH Vault - 37,250 SEAM over 14 days
+  {
+    start: 1739822400n, // 2025-02-17 20:00:00 GMT+0000
+    end: 1741032000n, // 2025-03-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
+    amount: parseUnits("37250", 18),
+    chainId: ChainId.BASE,
+  },
 ];
