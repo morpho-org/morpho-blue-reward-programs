@@ -911,5 +911,5 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
     amount: parseUnits("15000", 18),
     chainId: ChainId.MAINNET,
-  }
+  },
 ];
