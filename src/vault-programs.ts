@@ -555,7 +555,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca", // Moonwell Flagship USDC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("877500", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Flagship USDC - Monnwell rewards - months 3-4
@@ -599,7 +599,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026", // Moonwell Flagship EURC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("573750", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Flagship EURC - Monnwell rewards - months 3-4
@@ -687,7 +687,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943", // base Moonwell urd
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE", // Base token
     vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796", // Moonwell Frontier cbBTC
-    amount: parseUnits("675000", 18),
+    amount: parseUnits("573750", 18),
     chainId: ChainId.BASE,
   },
   // Moonwell Frontier cbBTC - Monnwell rewards - months 3-4
@@ -747,7 +747,17 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("636699", 18),
     chainId: ChainId.BASE,
   },
-
+  // Seamless USDC Vault - 51,851 SEAM over 14 days
+  {
+    start: 1737403200n, // 2025-01-20 20:00:00 GMT+0000
+    end: 1738612800n, // 2025-02-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("51851", 18),
+    chainId: ChainId.BASE,
+  },
   // Ionic WETH Vault - 1,059,041 ION 01/14-01/21 6pm GMT
   {
     start: 1736877600n,
@@ -835,5 +845,71 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
     amount: parseUnits("68.12488908598947", 18),
     chainId: ChainId.BASE,
+  },
+  // Ionic WETH Vault - 10,734,824 ION 01/22-02/19 6pm GMT
+  {
+    start: 1737568800n,
+    end: 1739988000n,
+    fundsSender: "0x1155b614971f16758C92c4890eD338C9e3ede6b7", // ionic
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5", // ion token
+    vault: "0x5A32099837D89E3a794a44fb131CBbAD41f87a8C", // ionic weth vault
+    amount: parseUnits("10734824", 18),
+    chainId: ChainId.BASE,
+  },
+  // Ionic USDC Vault - 7,873,210 ION 01/22-02/19 6pm GMT
+  {
+    start: 1737568800n,
+    end: 1739988000n,
+    fundsSender: "0x1155b614971f16758C92c4890eD338C9e3ede6b7", // ionic
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5", // ion token
+    vault: "0x23479229e52Ab6aaD312D0B03DF9F33B46753B5e", // ionic usdc vault
+    amount: parseUnits("7873210", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless USDC Vault - 100,000 SEAM over 29 days
+  {
+    start: 1738612800n, // 2025-02-03 20:00:00 GMT+0000
+    end: 1741032000n, // 2025-03-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("100000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless cbBTC Vault - 74,675 SEAM over 29 days
+  {
+    start: 1738612800n, // 2025-02-03 20:00:00 GMT+0000
+    end: 1741032000n, // 2025-03-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x5a47C803488FE2BB0A0EAaf346b420e4dF22F3C7", // Seamless cbBTC vault
+    amount: parseUnits("74675", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless ETH Vault - 37,250 SEAM over 14 days
+  {
+    start: 1739822400n, // 2025-02-17 20:00:00 GMT+0000
+    end: 1741032000n, // 2025-03-03 20:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
+    amount: parseUnits("37250", 18),
+    chainId: ChainId.BASE,
+  },
+  // LlamaRisk crvUSD Vault (Epoch 9) - 15_000 CRV over 4 weeks
+  {
+    start: 1740373200n, // Mon Feb 24 2025 05:00:00 GMT+0000
+    end: 1742788800n, // Mon Mar 24 2025 04:00:00 GMT+0000
+    fundsSender: "0x7e246fAce452AC43F5dC60c41EE14C88c37951c6", // LlamaRisk aggregator multisig
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb", // mainnet urd
+    tokenAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52", // crv
+    vault: "0x67315dd969B8Cd3a3520C245837Bf71f54579C75", // LlamaRisk crvUSD Vault
+    amount: parseUnits("15000", 18),
+    chainId: ChainId.MAINNET,
   },
 ];
