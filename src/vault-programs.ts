@@ -936,7 +936,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   },
   // Re7 Universal USDC Vault - 5000 USDC 03/03-3/31 2pm GMT
   {
-    start: 1741021200n,
+    start: 1741010400n,
     end: 1743426000n,
     fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
