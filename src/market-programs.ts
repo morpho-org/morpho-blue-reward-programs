@@ -1709,7 +1709,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
   // uXRP/USDC 379 uXRP on Base 3/03/2025 03/31/2025 2pm GMT
   {
     start: 1741021200n,
-    end: 1742220000n,
+    end: 1743426000n,
     fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
     urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
     tokenAddress: "0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE",
