@@ -1781,7 +1781,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
-  // ynethx/USDC Mainnet 5 ynETHx 03/18-04/29 6pm GMT
+  // ynethx/USDC Mainnet 5 ynETHx 03/18-04/29 12pm EST
   {
     start: 1742313600n,
     end: 1745942400n,
