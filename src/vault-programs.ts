@@ -978,7 +978,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("85000", 18),
     chainId: ChainId.BASE,
   },
-  // Re7 eUSD Vault - 43,750 eUSD 2/20-3/20 6pm GMT
+  // Re7 eUSD Vault - 43,750 eUSD 3/20-4/20 6pm GMT
   {
     start: 1742493600n,
     end: 1745172000n,
@@ -989,7 +989,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("43750", 18),
     chainId: ChainId.BASE,
   },
-  // Gauntlet eUSD Core Vault - 60,000 eUSD 2/20-3/20 6pm GMT
+  // Gauntlet eUSD Core Vault - 60,000 eUSD 3/20-4/20 6pm GMT
   {
     start: 1742493600n,
     end: 1745172000n,
