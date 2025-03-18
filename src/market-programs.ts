@@ -1781,6 +1781,21 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // ynethx/USDC Mainnet 5 ynETHx 03/18-04/29 12pm EST
+  {
+    start: 1742313600n,
+    end: 1745942400n,
+    fundsSender: "0x0329aCa1a15139e2288E58c8a8a057b7723af4f2",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+    marketId: "0xf0edbb36183591ff28c56fdb283fdd6896cf1298990e5913208902adb87d2b75",
+    rewardAmount: {
+      supply: parseUnits("5", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
   // wstETH/sUSDS 12,500 USDS on Base 3/24/2025 03/31/2025 0am UTC
   {
     start: 1742774400n,
