@@ -1676,4 +1676,109 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // uSOL/USDC 6 uSOL on Base 3/17/2025 04/21/2025 2pm GMT
+  {
+    start: 1742220000n,
+    end: 1745244000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+    marketId: "0xa60e9b888f343351dece4df8251abe5858fc5db96e8624d614a6500c3a3085ea",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("6", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // uSUI/USDC 310 uSUI on Base 3/17/2025 04/21/2025 2pm GMT
+  {
+    start: 1742220000n,
+    end: 1745244000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
+    marketId: "0x5d96564285fc3830f51fe495f88c29cc1232fbca61ca8b6edc25bff921efdef2",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("310", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // uXRP/USDC 379 uXRP on Base 3/03/2025 03/31/2025 2pm GMT
+  {
+    start: 1741183200n,
+    end: 1743426000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE",
+    marketId: "0xa426ca680bd5a7dc0f95942ba876a7df399cdf8149f798bcc4e94f03e35d08fa",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("379", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/sUSDS 12,500 USDS on Base 3/10/2025 03/17/2025 0am UTC
+  {
+    start: 1741564800n,
+    end: 1742169600n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0xb003f1eddcaece702f8b34d684840ef913e00d6c9b0e209f67f8524bfc095733",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/sUSDS 12,500 USDS on Base 3/10/2025 03/17/2025 0am UTC
+  {
+    start: 1741564800n,
+    end: 1742169600n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/sUSDS 12,500 USDS on Base 3/17/2025 03/24/2025 0am UTC
+  {
+    start: 1742169600n,
+    end: 1742774400n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0xb003f1eddcaece702f8b34d684840ef913e00d6c9b0e209f67f8524bfc095733",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/sUSDS 12,500 USDS on Base 3/17/2025 03/24/2025 0am UTC
+  {
+    start: 1742169600n,
+    end: 1742774400n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
 ];
