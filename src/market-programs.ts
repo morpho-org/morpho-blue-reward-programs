@@ -1826,4 +1826,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // syrupUSDC/USDC Mainnet 100k SYRUP 03/25-05/06 12pm EST
+  {
+    start: 1742918400n,
+    end: 1746547200n,
+    fundsSender: "",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+    marketId: "0x729badf297ee9f2f6b3f717b96fd355fc6ec00422284ce1968e76647b258cf44",
+    rewardAmount: {
+      supply: parseUnits("100000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
