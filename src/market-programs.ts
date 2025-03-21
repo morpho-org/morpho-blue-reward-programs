@@ -1832,7 +1832,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     end: 1746547200n,
     fundsSender: "",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
-    tokenAddress: "0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+    tokenAddress: "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
     marketId: "0x729badf297ee9f2f6b3f717b96fd355fc6ec00422284ce1968e76647b258cf44",
     rewardAmount: {
       supply: parseUnits("100000", 18),
