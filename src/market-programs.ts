@@ -1826,4 +1826,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // cbBTC/sUSDS 12,500 USDS on Base 3/31/2025 04/07/2025 0am UTC
+  {
+    start: 1743379200n,
+    end: 1743984000n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
 ];
