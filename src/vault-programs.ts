@@ -1043,5 +1043,5 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
     amount: parseUnits("18666.67", 18),
     chainId: ChainId.BASE,
-  }
+  },
 ];
