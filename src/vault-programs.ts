@@ -1044,4 +1044,15 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("18666.67", 18),
     chainId: ChainId.BASE,
   },
+  // Re7 Universal USDC Vault - 5,000 USDC 4/04-4/26 1pm GMT
+  {
+    start: 1743771600n,
+    end: 1745672400n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("68.12488908598947", 18),
+    chainId: ChainId.BASE,
+  },
 ];
