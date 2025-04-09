@@ -1856,4 +1856,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // wBLT/USDC 7,000 BMX on Base 04/16/2025 06/11/2025 0am UTC
+  {
+    start: 1744761600n,
+    end: 1749600000n,
+    fundsSender: "0xE02Fb5C70aF32F80Aa7F9E8775FE7F12550348ec",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x548f93779fBC992010C07467cBaf329DD5F059B7",
+    marketId: "0xd1892032c68f94d2650238b363195c6c3c142ba80c0c71269d14f8ea42c0abdf",
+    rewardAmount: {
+      supply: parseUnits("5000", 18),
+      borrow: parseUnits("2000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
 ];
