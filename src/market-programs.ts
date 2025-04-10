@@ -1871,4 +1871,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // syrupUSDC/USDC 300,000 SYRUP on ETH Mainnet 04/14/2025 05/14/2025 9am EST
+  {
+    start: 1744635600n,
+    end: 1747227600n,
+    fundsSender: "0x3fCdCc5bC5178C81738c176613818D9D2C7F7E1a",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+    marketId: "0x729badf297ee9f2f6b3f717b96fd355fc6ec00422284ce1968e76647b258cf44",
+    rewardAmount: {
+      supply: parseUnits("300000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  }
 ];
