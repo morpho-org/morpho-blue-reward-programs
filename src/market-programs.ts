@@ -1781,4 +1781,139 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // ynethx/USDC Mainnet 5 ynETHx 03/18-04/29 12pm EST
+  {
+    start: 1742313600n,
+    end: 1745942400n,
+    fundsSender: "0x0329aCa1a15139e2288E58c8a8a057b7723af4f2",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+    marketId: "0xf0edbb36183591ff28c56fdb283fdd6896cf1298990e5913208902adb87d2b75",
+    rewardAmount: {
+      supply: parseUnits("5", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
+  // wstETH/sUSDS 12,500 USDS on Base 3/24/2025 03/31/2025 0am UTC
+  {
+    start: 1742774400n,
+    end: 1743379200n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0xb003f1eddcaece702f8b34d684840ef913e00d6c9b0e209f67f8524bfc095733",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/sUSDS 12,500 USDS on Base 3/24/2025 03/31/2025 0am UTC
+  {
+    start: 1742774400n,
+    end: 1743379200n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wstETH/sUSDS 12,500 USDS on Base 3/31/2025 04/07/2025 0am UTC
+  {
+    start: 1743379200n,
+    end: 1743984000n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0xb003f1eddcaece702f8b34d684840ef913e00d6c9b0e209f67f8524bfc095733",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/sUSDS 12,500 USDS on Base 3/31/2025 04/07/2025 0am UTC
+  {
+    start: 1743379200n,
+    end: 1743984000n,
+    fundsSender: "0x1Fe9F102593861118D8664E84201ec9754198F30",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    marketId: "0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45",
+    rewardAmount: {
+      supply: parseUnits("12500", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // wBLT/USDC 7,000 BMX on Base 04/16/2025 06/11/2025 0am UTC
+  {
+    start: 1744761600n,
+    end: 1749600000n,
+    fundsSender: "0xE02Fb5C70aF32F80Aa7F9E8775FE7F12550348ec",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x548f93779fBC992010C07467cBaf329DD5F059B7",
+    marketId: "0xd1892032c68f94d2650238b363195c6c3c142ba80c0c71269d14f8ea42c0abdf",
+    rewardAmount: {
+      supply: parseUnits("5000", 18),
+      borrow: parseUnits("2000", 18),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbBTC/EURC 2000 EURC 04/14/2025 04/28/2025 1pm EST
+  {
+    start: 1744668000n,
+    end: 1745877600n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x67ebd84b2fb39e3bc5a13d97e4c07abe1ea617e40654826e9abce252e95f049e",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("2000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbETH/EURC 1000 EURC 04/14/2025 04/28/2025 1pm EST
+  {
+    start: 1744668000n,
+    end: 1745877600n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x7fc498ddcb7707d6f85f6dc81f61edb6dc8d7f1b47a83b55808904790564929a",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("1000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // syrupUSDC/USDC 300,000 SYRUP on ETH Mainnet 04/14/2025 05/14/2025 9am EST
+  {
+    start: 1744635600n,
+    end: 1747227600n,
+    fundsSender: "0x3fCdCc5bC5178C81738c176613818D9D2C7F7E1a",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+    marketId: "0x729badf297ee9f2f6b3f717b96fd355fc6ec00422284ce1968e76647b258cf44",
+    rewardAmount: {
+      supply: parseUnits("300000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];

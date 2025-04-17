@@ -1000,4 +1000,114 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("60000", 18),
     chainId: ChainId.MAINNET,
   },
+  // Gauntlet Frontier USDC Mainnet 100k SYRUP 03/25-05/06 12pm EST
+  {
+    start: 1742918400n,
+    end: 1746547200n,
+    fundsSender: "0xa7cC8d3E64EA81670181B005A476D0cA46E4C1fc",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+    vault: "0xc582F04d8a82795aa2Ff9c8bb4c1c889fe7b754e",
+    amount: parseUnits("100000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Seamless USDC Vault - 23,333.33 SEAM over 7 days
+  {
+    start: 1743706800n, // 2025-04-03 19:00:00 GMT+0000
+    end: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("23333.33", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless cbBTC Vault - 18,200 SEAM over 7 days
+  {
+    start: 1743706800n, // 2025-04-03 19:00:00 GMT+0000
+    end: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x5a47C803488FE2BB0A0EAaf346b420e4dF22F3C7", // Seamless cbBTC vault
+    amount: parseUnits("18200", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless ETH Vault - 18,666.67 SEAM over 7 days
+  {
+    start: 1743706800n, // 2025-04-03 19:00:00 GMT+0000
+    end: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
+    amount: parseUnits("18666.67", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 Universal USDC Vault - 5,000 USDC 4/04-4/25 1pm GMT
+  {
+    start: 1743771600n,
+    end: 1745586000n,
+    fundsSender: "0x59e7682CcbdB40e4e8B73899a7CF3589026E783B",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    vault: "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+    amount: parseUnits("5000", 6),
+    chainId: ChainId.BASE,
+  },
+  // Seamless USDC Vault - 76,666.67 SEAM over 23 days
+  {
+    start: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    end: 1746298800n, // 2025-05-03 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("76666.67", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless cbBTC Vault - 59,800 SEAM over 23 days
+  {
+    start: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    end: 1746298800n, // 2025-05-03 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x5a47C803488FE2BB0A0EAaf346b420e4dF22F3C7", // Seamless cbBTC vault
+    amount: parseUnits("59800", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless ETH Vault - 61,333.33 SEAM over 23 days
+  {
+    start: 1744311600n, // 2025-04-10 19:00:00 GMT+0000
+    end: 1746298800n, // 2025-05-03 19:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
+    amount: parseUnits("61333.33", 18),
+    chainId: ChainId.BASE,
+  },
+  // Re7 eUSD Vault - 43,750 eUSD 4/20-5/20 6pm GMT
+  {
+    start: 1745172000n,
+    end: 1747764000n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    vault: "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    amount: parseUnits("43750", 18),
+    chainId: ChainId.BASE,
+  },
+  // Gauntlet eUSD Core Vault - 60,000 eUSD 4/20-5/20 6pm GMT
+  {
+    start: 1745172000n,
+    end: 1747764000n,
+    fundsSender: "0x03d03A026E71979BE3b08D44B01eAe4C5FF9da99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    vault: "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    amount: parseUnits("60000", 18),
+    chainId: ChainId.MAINNET,
+  },
 ];
