@@ -1916,4 +1916,19 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
+  // fxSAVE/USDC 64 FXN on Ethereum 4/22/2025 to 5/06/2025  14:00:00 UTC
+  {
+    start: 1745330400n,
+    end: 1746540000n,
+    fundsSender: "0x38a93e70b0D8343657f802C1c3Fdb06aC8F8fe99",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x365accfca291e7d3914637abf1f7635db165bb09",
+    marketId: "0x43e925e52d7873fa8acac90dd5f246087d55b3a34c344b71884a6352491ff459",
+    rewardAmount: {
+      supply: parseUnits("64", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: ChainId.MAINNET,
+  },
 ];
