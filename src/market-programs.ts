@@ -1916,7 +1916,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // fxSAVE/USDC 64 FXN on Ethereum 4/22/2025 to 5/06/2025  22:00:00 UTC
+  // fxSAVE/USDC 64 FXN on Ethereum 4/22/2025 to 5/06/2025  14:00:00 UTC
   {
     start: 1745330400n,
     end: 1746540000n,
