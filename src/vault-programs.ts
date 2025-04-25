@@ -1121,7 +1121,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("5000", 6),
     chainId: ChainId.BASE,
   },
-  // Kiln
+  // Kiln test programs
   {
     start: 1745480741n,
     end: 1745712000n,
@@ -1140,6 +1140,27 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     tokenAddress: "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
     vault: "0x334F5d28a71432f8fc21C7B2B6F5dBbcD8B32A7b",
     amount: parseUnits("100", 18),
+    chainId: ChainId.MAINNET,
+  },
+  // Kiln bootstrap - 10k MORPHOs 04/28-05/12 8am GMT
+  {
+    start: 1745827200n,
+    end: 1747036800n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+    vault: "0x96B22EB7178d116797e57197e586b70FedAE8Fdd",
+    amount: parseUnits("5000", 18),
+    chainId: ChainId.MAINNET,
+  },
+  {
+    start: 1745827200n,
+    end: 1747036800n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
+    tokenAddress: "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+    vault: "0x334F5d28a71432f8fc21C7B2B6F5dBbcD8B32A7b",
+    amount: parseUnits("5000", 18),
     chainId: ChainId.MAINNET,
   },
 ];
