@@ -1144,7 +1144,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   },
   // Kiln bootstrap - 10k MORPHOs 04/28-05/12 8am GMT
   {
-    start: 1745913600n,
+    start: 1745910000n,
     end: 1747123200n,
     fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
@@ -1154,7 +1154,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     chainId: ChainId.MAINNET,
   },
   {
-    start: 1745913600n,
+    start: 1745910000n,
     end: 1747123200n,
     fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
     urdAddress: "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb",
