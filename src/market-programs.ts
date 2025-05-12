@@ -1961,4 +1961,34 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // cbBTC/EURC 7000 EURC 05/12/2025 05/26/2025 1pm EST
+  {
+    start: 1747069200n,
+    end: 1748278800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x67ebd84b2fb39e3bc5a13d97e4c07abe1ea617e40654826e9abce252e95f049e",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("7000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
+  // cbETH/EURC 3000 EURC 05/12/2025 05/26/2025 1pm EST
+  {
+    start: 1747069200n,
+    end: 1748278800n,
+    fundsSender: "0x874A0A0fc772a32b40e3749ACc3B72f3b0c9b82a",
+    urdAddress: "0x5400dBb270c956E8985184335A1C62AcA6Ce1333",
+    tokenAddress: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    marketId: "0x7fc498ddcb7707d6f85f6dc81f61edb6dc8d7f1b47a83b55808904790564929a",
+    rewardAmount: {
+      supply: 0n,
+      borrow: parseUnits("3000", 6),
+      collateral: 0n,
+    },
+    chainId: ChainId.BASE,
+  },
 ];
