@@ -64,4 +64,13 @@ export const airdropPrograms: AirdropRewardProgramArgs[] = [
     chainId: ChainId.BASE,
     totalRewards: 26481776681223331033279n,
   },
+  {
+    claimDate: 1747785600n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+    cidV0: "QmSwMy2CNcvKAt9ecq5jCQhvpEWyBebkY6e1YXsk3MboNA",
+    chainId: ChainId.BASE,
+    totalRewards: 85566468583316560914393n,
+  },
 ];
