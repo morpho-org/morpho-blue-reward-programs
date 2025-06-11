@@ -73,4 +73,22 @@ export const airdropPrograms: AirdropRewardProgramArgs[] = [
     chainId: ChainId.BASE,
     totalRewards: 85566468583316560914393n,
   },
+  {
+    claimDate: 1749736800n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333",
+    tokenAddress: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
+    cidV0: "QmdG8bVnZMmnBm4kFvU2TZ6QiNXTRiNsKbX5WXPouvLUTG",
+    chainId: ChainId.BASE,
+    totalRewards: 3661000000000000000000n,
+  },
+  {
+    claimDate: 1749736800n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    cidV0: "Qmf7mqobRgAkDmDEgzr9FY1KpaqanoGJXb7JSCSVYn76A5",
+    chainId: ChainId.BASE,
+    totalRewards: 150000000000000000000000n,
+  },
 ];
