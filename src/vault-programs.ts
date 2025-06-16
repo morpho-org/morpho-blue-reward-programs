@@ -1196,4 +1196,48 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("80000", 18),
     chainId: ChainId.BASE,
   },
+  // Moonwell Flagship USDC 5,000,000 WELL
+  {
+    start: 1750204800n,
+    end: 1758153600n,
+    fundsSender: "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
+    amount: parseUnits("5000000", 18),
+    chainId: ChainId.BASE,
+  },
+    // Moonwell Flagship ETH 2,400,000 WELL
+    {
+    start: 1750204800n,
+    end: 1758153600n,
+    fundsSender: "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+    amount: parseUnits("2400000", 18),
+    chainId: ChainId.BASE,
+  },
+  // Moonwell Flagship EURC 1,300,000 WELL
+      {
+    start: 1750204800n,
+    end: 1758153600n,
+    fundsSender: "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026",
+    amount: parseUnits("1300000", 18),
+    chainId: ChainId.BASE,
+  }, 
+   // Moonwell Flagship cbBTC 1,300,000 WELL
+      {
+    start: 1750204800n,
+    end: 1758153600n,
+    fundsSender: "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
+    urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
+    tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
+    vault: "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796",
+    amount: parseUnits("1300000", 18),
+    chainId: ChainId.BASE,
+  },
 ];
