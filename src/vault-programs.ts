@@ -1231,8 +1231,8 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
   }, 
    // Moonwell Flagship cbBTC 1,300,000 WELL
       {
-    start: 1750204800n,
-    end: 1758153600n,
+    start: 1750233600n,
+    end: 1758182400n,
     fundsSender: "0x8b621804a7637b781e2BbD58e256a591F2dF7d51",
     urdAddress: "0x9e3380f8B29E8f85cA19EFFA80Fb41149417D943",
     tokenAddress: "0xA88594D404727625A9437C3f886C7643872296AE",
