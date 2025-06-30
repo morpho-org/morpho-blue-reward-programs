@@ -2021,4 +2021,184 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.BASE,
   },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0x2fb14719030835b8e0a39a1461b384ad6a9c8392550197a7c857cf9fcbd6c534",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0xd4ab732112fa9087c9c3c3566cd25bc78ee7be4f1b8bdfe20d6328debb818656",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0x9e03fc0dc3110daf28bc6bd23b32cb20b150a6da151856ead9540d491069db1c",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0xbeb2f6ad6de1a9eead3302ad57a0180f67d127a22e53fa29bc724147b96cb20d",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana KAT June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    tokenAddress: "0x7F1f4b4b29f5058fA32CC7a97141b8D7e5ABDC2d",
+    marketId: "0x02a77b251cb27b04b5ddab89c852bdc77ee85d359c082170389001d71571a967",
+    rewardAmount: {
+      supply: parseUnits("500000", 18),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0x2fb14719030835b8e0a39a1461b384ad6a9c8392550197a7c857cf9fcbd6c534",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0xd4ab732112fa9087c9c3c3566cd25bc78ee7be4f1b8bdfe20d6328debb818656",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0x9e03fc0dc3110daf28bc6bd23b32cb20b150a6da151856ead9540d491069db1c",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0xbeb2f6ad6de1a9eead3302ad57a0180f67d127a22e53fa29bc724147b96cb20d",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
+  // Katana MORPHO June 30 6PM CEST to July 7 6PM CEST
+  {
+    start: 1751306400n,
+    end: 1751911200n,
+    fundsSender: "0xF057afeEc22E220f47AD4220871364e9E828b2e9",
+    tokenAddress: "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+    urdAddress: "0x0000000000000000000000000000000000000001",
+    marketId: "0x02a77b251cb27b04b5ddab89c852bdc77ee85d359c082170389001d71571a967",
+    rewardAmount: {
+      supply: parseUnits("30325", 16),
+      borrow: 0n,
+      collateral: 0n,
+    },
+    chainId: 747474 as ChainId,
+  },
 ];
