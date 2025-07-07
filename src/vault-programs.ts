@@ -1240,4 +1240,26 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("1300000", 18),
     chainId: ChainId.BASE,
   },
+  // Seamless USDC Vault - 309,600.00 SEAM
+  {
+    start: 1751907600n, // 2025-07-07 17:00:00 GMT+0000
+    end: 1758232800n, // 2025-09-18 22:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738", // Seamless USDC vault
+    amount: parseUnits("309600", 18),
+    chainId: ChainId.BASE,
+  },
+  // Seamless ETH Vault - 136,920.00 SEAM
+  {
+    start: 1751907600n, // 2025-07-07 17:00:00 GMT+0000
+    end: 1758232800n, // 2025-09-18 22:00:00 GMT+0000
+    fundsSender: "0xA1b5f2cc9B407177CD8a4ACF1699fa0b99955A22", // Seamless
+    urdAddress: "0x5400dbb270c956e8985184335a1c62aca6ce1333", // base urd
+    tokenAddress: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85", // SEAM token
+    vault: "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18", // Seamless ETH vault
+    amount: parseUnits("136920", 18),
+    chainId: ChainId.BASE,
+  },
 ];
